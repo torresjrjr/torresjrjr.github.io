@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HTML Article Template</title>
+	<script>
+		function lightmode() {
+			document.getElementById("big").style.backgroundColor = "#FFFFFF";
+			document.getElementById("main").style.fontSize = "";
+			document.getElementById("main").style.color = "#000000";
+			document.getElementById("main").style.backgroundColor = "#DDDDDD";
+		}
+		function darkmode() {
+			document.getElementById("big").style.backgroundColor = "#000000";
+			document.getElementById("main").style.fontSize = "";
+			document.getElementById("main").style.color = "#999988";
+			document.getElementById("main").style.backgroundColor = "#000909";
+		}
+	</script>
+	<style>
+		div.big {
+			background-color: #000000;
+			width: 100%;
+			margin: 0px;
+			border: 0px dashed yellow;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		div.main {
+			background-color: #000909;
+			max-width: 1024px;
+			margin: auto;
+			border: 0px solid darkgrey;
+			padding: 2%;
+			color: #999988;
+		}
+		p {
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			margin-left: 0;
+			margin-right: 0;
+
+			font-family: Cambria;
+			line-height: 1.4;
+		}
+		p.monospace {
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			margin-left: 0;
+			margin-right: 0;
+
+			border: 0px solid darkgrey;
+			padding-left: 8px;
+			background-color: #222222;
+
+			font-family: Consolas;
+			font-size: 14px;
+			color: #CCCCCC;
+			line-height: 1.4;
+		}
+
+	</style>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body bgcolor="#000000" style="margin: 0px; padding: 0px;">
+<div class="big" id="big">
+<div class="main" id="main">
+
+<pre>FILENAME: HTML_Template.html</pre>
+
+<header>
+	<h1>The Main Heading</h1>
+	<p>A short description of thr article.</p>
+</header>
+
+<p>
+	<cite>
+	Author: <a title="More by Author" href="https://time.is/"><b>John Smith</b></a>
+	<br>
+	Date published: <time datetime="2015-05-26 10:03:47"><b>26 May 2015, 10:03 AM</b></time>
+	<br>
+	Source: <b>Time Is - <a href="https://time.is/">time.is</a></b>
+	</cite>
+</p>
+
+<p>Short URL: <a href="http://0ms.me">0ms.me</a><br></p>
+
+<p>
+	<a href="https://upload.wikimedia.org/wikipedia/commons/e/e5/Paul_Gauguin_-_D%27ou_venons-nous.jpg">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Paul_Gauguin_-_D%27ou_venons-nous.jpg" alt="Paul Gauguin - D'ou venons-nous" 
+		style="max-width:100%;height:auto;">
+	</a>
+	<i>Paul Gauguin - D'ou venons-nous
+	<br>
+	Image online source: <a href="https://upload.wikimedia.org/wikipedia/commons/e/e5/Paul_Gauguin_-_D%27ou_venons-nous.jpg">link</a></i>
+</p>
+
+<br>
+
+<button type="button" onclick="darkmode()">Dark Mode</button>
+<button type="button" onclick="lightmode()">Light Mode</button>
+
+<!-- The Article -->
+<article>
+	<h2>A Suitable Heading</h2>
+
+	<p>The meaning of life, or the answer to the question "What is the meaning of life?", pertains to the significance of living or existence in general. Many other related questions include: "Why are we here?", "What is life all about?", or "What is the purpose of existence?" There have been a large number of proposed answers to these questions from many different cultural and ideological backgrounds. The search for life's meaning has produced much philosophical, scientific, theological, and metaphysical speculation throughout history. Different people and cultures believe different things for the answer to this question.</p>
+
+	<p class="monospace">Second test of monospace <br>The Second line.</p>
+
+	<p>The meaning of life as we perceive it is derived from philosophical and religious contemplation of, and scientific inquiries about existence, social ties, consciousness, and happiness. Many other issues are also involved, such as symbolic meaning, ontology, value, purpose, ethics, good and evil, free will, the existence of one or multiple gods, conceptions of God, the soul, and the afterlife. Scientific contributions focus primarily on describing related empirical facts about the universe, exploring the context and parameters concerning the "how" of life. Science also studies and can provide recommendations for the pursuit of well-being and a related conception of morality. An alternative, humanistic approach poses the question, "What is the meaning of my life?"</p>
+</article>
+<!-- End Of Artickle -->
+
+<p>
+	<b>Other Articles:</b><br>
+	<a href="https://time.is/"> https://time.is/ </a>
+</p>
+</div>
+</div>
+</body>
+
+</html>
