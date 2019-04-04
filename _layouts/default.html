@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assests/js"></script>
   </head>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,8 +24,10 @@
       border: 0px solid darkgrey;
       padding: 2%;
       color: #999988;">
-    {% include navigation.html %}
-    {{ content }}
+        <button type="button" onclick="darkmode()">Dark Mode</button>
+        <button type="button" onclick="lightmode()">Light Mode</button>
+        {% include navigation.html %}
+        {{ content }}
       </div>
     </div>
   </body>
