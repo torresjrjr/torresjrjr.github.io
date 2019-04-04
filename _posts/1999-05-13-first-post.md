@@ -2,9 +2,7 @@
 layout: post
 author: jill
 ---
-___
-# My first post, whoop. 👑
-## Thoughts
+## My first post, whoop. 👑
 This is pretty cool.
 
 ## Feelings

@@ -2,7 +2,6 @@
 layout: post
 author: jill
 ---
-___
 # Constitution of Isabella 👑
 ## Preamble 📣
 We the people, together in trust and hope, dare to dream to form a unity as a new nation and identity, to live free and fullfilled, and protect our way of life, and that of our children, and in doing so, ordain this Constitution, to guide us in our efforts and journey to secure our dreams, arise from our forthcomings, and seek the truth.
