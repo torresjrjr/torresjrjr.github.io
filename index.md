@@ -1,7 +1,8 @@
 ---
-title: Index
-toc: Contents
+title: index
+
 ---
+
 `filename: ConstitutionDraft`
 
 ___
