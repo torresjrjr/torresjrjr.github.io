@@ -2,6 +2,7 @@
 The quick brown fox jumps over the lazy dog.
 
 ```
+### Reminder as to what a basic Jekyll directory structure looks like: ###
 .  
 ├── _config.yml  
 ├── _data  
@@ -23,7 +24,7 @@ The quick brown fox jumps over the lazy dog.
 |   └── _layout.scss  
 ├── _site  
 ├── .jekyll-metadata  
-└── index.html # can also be an 'index.md' with valid front matter  
+└── index.html   # can also be an 'index.md' with valid front matter  
 ```
 
 End.
