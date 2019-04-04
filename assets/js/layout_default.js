@@ -1,3 +1,5 @@
+---
+---
 function lightmode() {
 	document.getElementById("big").style.backgroundColor = "#FFFFFF";
 	document.getElementById("main").style.fontSize = "";
