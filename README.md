@@ -1,5 +1,5 @@
-# torresjrjr.github.io
-The quick brown fox jumps over the lazy dog.
+# www.torresjrjr.com
+A blog, on `torresjrjr.github.io` .
 
 ```
 ### Reminder as to what a basic Jekyll directory structure looks like: ###
