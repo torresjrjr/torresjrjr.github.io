@@ -11,7 +11,7 @@ div.big {
 div.main {
 	background-color: #000909;
 	max-width: 1024px;
-	/*margin: auto;*/
+	margin: auto;
 	border: 0px solid darkgrey;
 	padding: 2%;
 	color: #999988;
