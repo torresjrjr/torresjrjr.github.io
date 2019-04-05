@@ -1,6 +1,6 @@
 ---
 layout: post
-author: ted
+author: badam
 type: story
 series: Tales of a Sixth Form Smasher
 episode: 1
