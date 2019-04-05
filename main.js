@@ -40,7 +40,7 @@ function checkCookie() {
     lightmode()
     console.log("main.js; checkCookie(); light_mode_1")
   } 
-  if (viewmode == "dark_mode_1") {} {
+  if (viewmode == "dark_mode_1") {
   	darkmode()
   	console.log("main.js; checkCookie(); dark_mode_1")
   }
