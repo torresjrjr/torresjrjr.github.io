@@ -10,7 +10,8 @@ title: Blog
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a> - <i><a href="{{ post.author.url }}">{{ post.author }}</a></i></h2>
+      {% assign filtered_author = site.authors | where: 'author', post.author %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a> - <i><a href="{{ filtered_author.url }}">{{ post.author }}</a></i></h2>
       {{ post.excerpt }}<p>. . .</p>
     </li>
   {% endfor %}
