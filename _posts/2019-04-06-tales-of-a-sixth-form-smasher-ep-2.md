@@ -1,0 +1,28 @@
+---
+layout: post
+type: story
+
+author: badam
+title: Roadrunner
+series: Tales of a Sixth Form Smasher
+episode: 2
+---
+
+# Tales of a Sixth Form Smasher
+## Ep 2 - Roadrunner
+
+I was wandering around the street on my paper round at around 2:30am on a cold December night. I came to this one particular house and delivered a newspaper. However, the way the letter box closed as I delivered the newspaper gave me a feeling that there was a sexy little whore loitering within that house. I began picturing her in my head and then got carried away in thought and accidentally knocked over their outdoor plasma TV which was on their front lawn. My heart raced and I scurries away. I then saw a sexy blonde slut with relatively large tits look out the window. I gave her a quick wink and then got the fuck out of there before I got into any trouble.
+
+As I began delivering to more houses further up the street. The thought of that sexy blonde frequently entered my mind and I couldn't stop thinking about frantically jamming my tallywacker between her tits. I hadn't fucked a blonde in almost 2 days so I needed to get my fix. It was well overdue. But I didn't know how to go back in there, especially after breaking their TV. But then I had a brilliant idea.
+
+I decided to rip off my shirt to display my gorgeous 7 pac and headed towards her house. I could still see the broken plasma TV, but it didn't matter, for I had a killer pick up line. I hastily climbed onto the garage roof and planned my epic entrance. But beforehand I applied some lynx deodorant, a bit of aftershaves and of course, copious amounts of hairspray. I headed towards her bedroom window and hotwired the window so that I could get inside. I was ready to make my debut to her...
+
+I leaped into her bedroom and did a sexy pose and she instantly awoke from her sleep. She then looked at me with trepidation and frantically asked me "who the fuck are you and what are you doing in my room." It was then that I hit her with my killer picked up line. "First I break your TV, then I break your hymen" I said with a cheeky grin. She then looked at me sexually and said "ooh, you're so sexy and spontaneous." It was at that moment that I knew that it was on. "Would you like a like of daddy's spectacular vanilla ice lolly surprise" I queried as I whipped out my tallywacker. "Yeah baby" she replied with sexual zealousness, and so it began...
+
+She got down on her knees like a good little submissive bitch and started sucking. She played me like the promiscuous pied piper. "Do you like the taste of my succulent penis you indecent harlot" I queried. "Yeah, but you got a bit of a bush" she answered. "Yeah baby, I'm nice and hairy like a horny hedgehog" I replied. "I'm so turned on" she moaned. I then ordered her to lie on her back and she complied. I then began to teabag her. "jingle balls, jingle balls" I sang as I enthusiastically thrusted my bollocks over her whorish face. "Lick my balls and call me tippy twinkle testicals" I ordered and she complied. She then began to get undressed and I prepared to fuck her hard. After she removed her underwear she said "I want you inside me, I'm on the pill don't worry." I then proceeded to insert my cock into her. But then someone obnoxiously barged in on us.
+
+"Keep it down there will you" said a man as he barged into her room. "who are you" I asked. "I'm her father, what the hell are you doing in there" he questioned, raising his voice. "I was just about to plough your daughter" I replied. His face then went red with rage. "How dare you think it's acceptable to have sex with my daughter without my permission" he shouted. By now I was bored of him so I just ignored him and went back to fucking his daughter. "Harder, faster" she said as I fucked her furiously. "You're not listening to me" her dad shouted angrily and then he came over and RKO'd me. "Sleazy little bastard, that'll teach you" he said. I got straight back up as my pain threshold was exceptionally high from all the femdom bitches I'd been fucking as of late.
+
+Her father then went over to the window and clocked the broken TV. "You wreckless hooligan, what the fuck have you done to my TV" he shouted. He then proceeded to reach for a cricket bat. "It's about time that I teach you a hard lesson" he snarled as he wielded the cricket bat. I then turn to his daughter and said "I got one more position for you, I call it the roadrunner." I lifted her up and slid my tallywacker back inside of her. "All aboard the cocktastic express, next stop, London Dicktoria" I said. I then proceeded to run out the window with my cock still inside of her. Her dad then proceeded to chase after me.
+
+I started running down the streets with his daughter still riding my dick. "Ooh, this is better than any rough sex I've ever had" she said. "Get back here" her father shouted, cricket bat in hand. I then ran onto the Main Street where many cars passed us by. "Go on lad" shouted a driver as he beeped his horn at us. I kept on running and then another driver threw a pack of durex at me and said "stay safe boy." I then threw it back at him and said "no need mate, she's on the pill." He then drove off and said "fair enough, don't nut too quick." I then turn right into an alleyway and hid there. "he's coming" said his daughter to me. "I gotta get out of here" I said. "But first, let me get your number" I added. She then took my phone and put her number on there. I could hear her fathers footsteps coming towards us. So I quickly escaped down a conveniently placed manhole. "Hope to shag you again soon" I said as I made my escape. I then went down the manhole and eventually managed to get back home safely. What an eventful night!

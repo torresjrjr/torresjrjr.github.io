@@ -1,6 +1,7 @@
 ---
 layout: post
 author: ted
+title: Constitution Draft
 ---
 # Constitution of Landia 👑
 ## Preamble 📣

@@ -1,11 +1,13 @@
 ---
 layout: post
-author: badam
-title: testing123
 type: story
+
+author: badam
+title: Walk in the Park on Valentine's Day
 series: Tales of a Sixth Form Smasher
 episode: 1
 ---
+
 # Tales of a Sixth Form Smasher
 ## Ep 1 - Walk in the Park on Valentine's Day
 
