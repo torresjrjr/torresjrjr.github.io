@@ -1,6 +1,7 @@
 ---
 layout: post
 author: badam
+title: testing123
 type: story
 series: Tales of a Sixth Form Smasher
 episode: 1
