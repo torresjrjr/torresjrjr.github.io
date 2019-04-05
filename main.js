@@ -44,4 +44,4 @@ function checkCookie() {
   }
 }
 
-console.log("cookie reader script start")
+console.log("cookie reader script end")
