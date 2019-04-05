@@ -11,10 +11,14 @@
   <body bgcolor="#012" style="margin: 0px; padding: 0px;">
     <div class="big" id="big">
       <div class="main" id="main">
+
         <button type="button" onclick="darkmode()">Dark Mode</button>
         <button type="button" onclick="lightmode()">Light Mode</button>
+        
         {% include navigation.html %}
+        
         {{ content }}
+        
       </div>
     </div>
   </body>
