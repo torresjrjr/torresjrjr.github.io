@@ -43,19 +43,19 @@ p.monospace {
 	line-height: 1.4;
 }
 .button {
-  background-color: #000;
-  border: 2px solid #333;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 8px;
-  width: 50%;
-  float: left;
+	background-color: #000;
+	border: 2px solid #333;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	width: 50%;
+	float: left;
 }
 .button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+	background-color: #4CAF50; /* Green */
+	color: white;
 }
