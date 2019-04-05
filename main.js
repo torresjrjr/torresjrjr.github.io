@@ -5,7 +5,7 @@ function lightmode() {
 	document.getElementById("main").style.color = "#000000";
 	document.getElementById("main").style.backgroundColor = "#DDDDDD";
 	document.cookie = "viewmode=light_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
-	console.log("cookie: viewmode=light_mode_1")
+	console.log("main.js; cookie: viewmode=light_mode_1")
 }
 function darkmode() {
 	document.getElementById("big").style.backgroundColor = "#000000";
@@ -13,10 +13,10 @@ function darkmode() {
 	document.getElementById("main").style.color = "#999988";
 	document.getElementById("main").style.backgroundColor = "#000909";
 	document.cookie = "viewmode=dark_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
-	console.log("cookie: viewmode=dark_mode_1")
+	console.log("main.js; cookie: viewmode=dark_mode_1")
 }
 
-console.log("cookie reader script start")
+console.log("main.js; cookie reader script start")
 
 function getCookie(cname) {
   var name = cname + "=";
@@ -38,10 +38,12 @@ function checkCookie() {
   var viewmode=getCookie("viewmode");
   if (viewmode = "light_mode_1") {
     lightmode()
+    console.log("checkCookie : light_mode_1")
   } 
-  if (viewmode = 'dark_mode_1') {} {
+  if (viewmode = "dark_mode_1") {} {
   	darkmode()
+  	console.log("checkCookie : dark_mode_1")
   }
 }
 
-console.log("cookie reader script end")
+console.log("main.js; cookie reader script end")
