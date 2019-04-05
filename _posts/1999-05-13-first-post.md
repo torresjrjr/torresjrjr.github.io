@@ -2,13 +2,13 @@
 layout: post
 author: jill
 ---
-## My first post, whoop. 👑
-This is pretty cool.
+# My first post 🌟
+The quick brown fox jumps over the lazy dog.
 
-## Feelings
-These are some emotions:
-- Happiness.
-- Excitment.
-- Eagerness.
+## Thoughts
+Testing the `md` file format:
+- Cat.
+- Dog.
+- Mouse.
 
-That's all, folks!
+Final paragraph. possible footer or card later.
