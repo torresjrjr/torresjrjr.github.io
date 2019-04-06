@@ -1,11 +1,10 @@
 <div id="header">
-	<div style="
-	content: '  ';clear: both; display: table;">
-		<div style="float: left; max-height: 32px">
+	<div style="clear: both; display: table;">
+		<div style="float: left; max-height: 32px; margin: 5px;">
 			<button type="button" onclick="darkmode()">Dark Mode</button>
 			<button type="button" onclick="lightmode()">Light Mode</button>
 		</div>
-		<div style="float: right; max-height: 32px">
+		<div style="float: right; max-height: 32px; margin: 5px;">
 			<nav>
 				<p style="margin: 0px; text-align: center;">- {% for item in site.data.navigation %}<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name | upcase }}</a> - {% endfor %}</p>
 			</nav>
