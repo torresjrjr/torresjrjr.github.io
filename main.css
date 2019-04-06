@@ -138,14 +138,16 @@ div.header_div {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow: auto;
 }
 .header_ul_li {
 	float: left;
 }
 .header_ul_li_a {
+	box-sizing: border-box;
 	display: inline-block;
-	
+	max-height: 
+
 	padding: 5px;
 
 	text-align: center;
