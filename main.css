@@ -122,6 +122,7 @@ input.searchbar {
   display: table;
 }
 div.header_div {
+	box-sizing: border-box;
 	display: inline-block;
 	float: left;
 
