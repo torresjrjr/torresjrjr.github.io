@@ -146,7 +146,7 @@ div.header_div {
 .header_ul_li_a {
 	box-sizing: border-box;
 	display: inline-block;
-	max-height: 
+	max-height: 32px;
 
 	padding: 5px;
 
