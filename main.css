@@ -81,11 +81,11 @@ input.searchbar {
 	margin: auto;
 	border:1px solid #ddd;
 	border-radius: 10px; 
-	padding: 5px;
+	padding: 8px;
 
 	background-color: #000;
 	color: #ddd;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: consolas;
 }
 #header {
