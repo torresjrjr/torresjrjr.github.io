@@ -2,7 +2,7 @@
 	<button type="button" onclick="darkmode()">Dark Mode</button>
 	<button type="button" onclick="lightmode()">Light Mode</button>
         
-	<nav>
+	<nav style="display: block; float: right;">
 		<p>- {% for item in site.data.navigation %}<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name | upcase }}</a> - {% endfor %}</p>
 	</nav>
 </div>
