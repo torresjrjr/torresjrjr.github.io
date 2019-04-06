@@ -74,17 +74,18 @@ button:hover {
 }
 /* Style the search box */
 input.searchbar {
-  max-width: 100%;
+	box-sizing: border-box;
+	max-width: 100%;
 
-  margin: auto;
-  border:1px solid #ddd;
-  border-radius: 10px; 
-  padding: 10px;
-  
-  background-color: #000;
-  color: #ddd;
-  font-size: 18px;
-  font-family: consolas;
+	margin: auto;
+	border:1px solid #ddd;
+	border-radius: 10px; 
+	padding: 10px;
+
+	background-color: #000;
+	color: #ddd;
+	font-size: 18px;
+	font-family: consolas;
 }
 #header {
 	max-width: 1024px;
