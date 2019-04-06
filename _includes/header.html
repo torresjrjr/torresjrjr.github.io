@@ -8,7 +8,7 @@
 			<ui style="list-style-type: none; text-align: center; margin: 0; padding: 0;">
 				{% for item in site.data.navigation %}
 				<li style="display: inline-block; font-size: 14px; padding: 5px;">
-					<p style="margin: 0px; text-align: center;">- <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name | upcase }}</a> - </p>					
+					<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name | upcase }}</a>	
 				</li>
 				{% endfor %}
 			</ui>
