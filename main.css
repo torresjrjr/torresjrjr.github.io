@@ -76,3 +76,7 @@ input.searchbar {
   font-size: 18px;
   font-family: consolas;
 }
+#footer {
+	height: 256px;
+	width: 100%;
+}
