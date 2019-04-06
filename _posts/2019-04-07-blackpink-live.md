@@ -3,5 +3,5 @@ layout: post
 author: emily
 ---
 # ✨ `COMEBACK` BLACKPINK ✨
-<iframe width="320" height="240" src="https://www.youtube-nocookie.com/embed/fNkxFo5Ef38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+<iframe id="ytplayer" type="text/html" width="320" height="180" src="https://www.youtube.com/embed/fNkxFo5Ef38?autoplay=1" frameborder="0" allowfullscreen>	
 > Don't Know What To Do ~ BLACKPINK
