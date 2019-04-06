@@ -95,10 +95,6 @@ input.searchbar {
 	padding-left: 2%;
 	padding-right: 2%;
 
-	content: "";
-	clear: both;
-	display: table;
-
 	background-color: #222;
 	color: #999988;
 }
