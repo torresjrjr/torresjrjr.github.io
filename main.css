@@ -157,3 +157,14 @@ div.header_div {
 .header_item:hover {
 	background-color: #111;
 }
+.header_button {
+	box-sizing: border-box;
+	display: inline-block;
+	max-height: 32px;
+
+	padding: auto;
+
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+}
