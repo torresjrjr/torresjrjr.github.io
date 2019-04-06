@@ -143,17 +143,17 @@ div.header_div {
 .header_ul_li {
 	float: left;
 }
-.header_ul_li_a {
+.header_item {
 	box-sizing: border-box;
 	display: inline-block;
 	max-height: 32px;
 
-	padding: 5px;
+	padding: 10px;
 
 	text-align: center;
 	font-size: 14px;
 	text-decoration: none;
 }
-.header_ul_li_a:hover {
+.header_item:hover {
 	background-color: #111;
 }
