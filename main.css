@@ -75,7 +75,7 @@ button:hover {
 /* Style the search box */
 input.searchbar {
 	box-sizing: border-box;
-	max-width: 100%;
+	width: 100%;
 
 	margin: auto;
 	border:1px solid #ddd;
