@@ -49,7 +49,7 @@ p.monospace {
 	color: #CCCCCC;
 	line-height: 1.4;
 }
-.button {
+button.button {
 	width: 50%;
 	float: left;
 	display: inline-block;
@@ -66,7 +66,7 @@ p.monospace {
 	font-size: 16px;
 	text-decoration: none;
 }
-.button:hover {
+button.button:hover {
 	background-color: #4CAF50; /* Green */
 	color: white;
 }
