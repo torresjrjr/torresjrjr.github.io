@@ -55,12 +55,12 @@ p.monospace {
 button {
 	max-height: 32px;
 
-	margin: auto;
+	margin: 0px;
 
 	border: 1px solid #333;
 	border-radius: 8px;
 	
-	padding: 4px 16px;
+	padding: 8px 16px;
 	
 	background-color: #000;
 	color: #CCC;
@@ -148,7 +148,7 @@ div.header_div {
 	display: inline-block;
 	max-height: 32px;
 
-	padding: 10px;
+	padding: 9px;
 
 	text-align: center;
 	font-size: 14px;
