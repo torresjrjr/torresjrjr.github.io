@@ -12,6 +12,12 @@ title: Blog
     <li>
       {% assign the_author = site.authors | where: 'short_name', post.author | first %}
       <h2><a href="{{ post.url }}">{{ post.title }}</a> - <i><a href="{{ the_author.url }}">{{ post.author }}</a> - {{ post.date }}</i></h2>
+
+      <h2>
+        <span style="float: left">This is a test.</span>
+        <span style="float: right">[Rare photograph]</span>
+      </h2>
+
       {{ post.excerpt }}<p>. . .</p>
     </li>
   {% endfor %}
