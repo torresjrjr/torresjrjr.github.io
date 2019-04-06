@@ -5,6 +5,6 @@ author: emily
 # Testing some embedding html
 Here is an embedded YouTube video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fNkxFo5Ef38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fNkxFo5Ef38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The quick brown fox jumps over the lazy dog.
