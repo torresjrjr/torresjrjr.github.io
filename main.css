@@ -65,9 +65,12 @@ p.monospace {
 /* Style the search box */
 input.searchbar {
   width: 100%;
-  font-size: 18px;
-  padding: 11px;
+
+  margin: auto;
   border:1px solid #ddd;
+  padding: 11px;
+  
   background-color: #000;
   color: #ddd;
+  font-size: 18px;
 }
