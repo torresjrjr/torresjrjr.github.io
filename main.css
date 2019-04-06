@@ -99,6 +99,8 @@ input.searchbar {
 	padding-left: 2%;
 	padding-right: 2%;
 
+	overflow: auto;
+
 	background-color: #222;
 	color: #999988;
 }
