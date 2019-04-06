@@ -5,9 +5,13 @@
 			<button type="button" onclick="lightmode()">Light Mode</button>
 		</div>
 		<div class="header_div" style="float: right;">
-			<nav>
-				<p style="margin: 0px; text-align: center;">- {% for item in site.data.navigation %}<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name | upcase }}</a> - {% endfor %}</p>
-			</nav>
+			<ui style="list-style-type: none; text-align: center; margin: 0; padding: 0;">
+				{% for item in site.data.navigation %}
+				<li style="display: inline-block; font-size: 14px; padding: 5px;">
+					<p style="margin: 0px; text-align: center;">- <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name | upcase }}</a> - </p>					
+				</li>
+				{% endfor %}
+			</ui>
 		</div>
 	</div>
 </div>
