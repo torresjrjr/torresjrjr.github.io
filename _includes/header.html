@@ -5,9 +5,9 @@
 			<button type="button" onclick="lightmode()">Light Mode</button>
 		</div>
 		<div class="header_div" style="float: right;">
-			<ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+			<ul class="header_ul">
 				{% for item in site.data.navigation %}
-				<li style="display: inline-block; text-align: center; font-size: 14px; padding: 5px; float: left;">
+				<li class="header_ul_li">
 					<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name | upcase }}</a>	
 				</li>
 				{% endfor %}

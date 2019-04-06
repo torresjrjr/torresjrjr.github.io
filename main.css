@@ -134,3 +134,16 @@ div.header_div {
 	border: 0px;
 	padding: 0px;
 }
+.header_ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.header_ul_li {
+	 display: inline-block;
+	 text-align: center;
+	 font-size: 14px;
+	 padding: 5px;
+	 float: left;
+}
