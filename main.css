@@ -128,7 +128,7 @@ div.header_div {
 	display: inline-block;
 	float: left;
 
-	max-height: 32px;
+	min-height: 32px;
 
 	margin: 0px;
 	border: 0px;
