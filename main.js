@@ -50,7 +50,7 @@ function checkCookie() {
 console.log("main.js; cookie reader script end")
 
 // Blog search bar. //
-<script>
+
 function BlogSearchbar() {
   console.log("BlogSearchbar")
   // Declare variables
@@ -78,4 +78,3 @@ function BlogSearchbar() {
   }
   console.log("BlogSearchbar END")
 }
-</script>
