@@ -14,7 +14,7 @@ div.big {
 }
 div.main {
 	max-width: 1024px;
-	min-height: 480px;
+	min-height: 512px;
 
 	margin: auto;
 	border: 0px solid darkgrey;
@@ -106,7 +106,7 @@ input.searchbar {
 }
 #footer {
 	max-width: 1024px;
-	height: 256px;
+	min-height: 64px;
 
 	margin: auto;
 	border: 0px solid darkgrey;
