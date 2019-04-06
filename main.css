@@ -50,6 +50,8 @@ p.monospace {
 	line-height: 1.4;
 }
 button {
+	max-height: 32px
+
 	border: 2px solid #333;
 	border-radius: 8px;
 	
