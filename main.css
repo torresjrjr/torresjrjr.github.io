@@ -121,7 +121,7 @@ input.searchbar {
   display: table;
 }
 div.header_div {
-	display:block;
+	display: inline-block;
 	float: left;
 
 	max-height: 32px;
