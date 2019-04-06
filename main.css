@@ -68,9 +68,11 @@ input.searchbar {
 
   margin: auto;
   border:1px solid #ddd;
-  padding: 11px;
+  border-radius: 3px
+  padding: 5px;
   
   background-color: #000;
   color: #ddd;
   font-size: 18px;
+  font-family: consolas;
 }
