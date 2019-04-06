@@ -86,7 +86,7 @@ input.searchbar {
 }
 #header {
 	max-width: 1024px;
-	min-height: 32px;
+	height: 32px;
 
 	border: 0px solid darkgrey;
 	padding-top: 10px;
