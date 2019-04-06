@@ -89,17 +89,18 @@ input.searchbar {
 
 	margin: auto;
 	border: 0px solid darkgrey;
-	padding: 2%;
+	padding: 5px, 2%;
 
 	background-color: #222;
 	color: #999988;
-}#footer {
+}
+#footer {
 	max-width: 1024px;
 	height: 256px;
 
 	margin: auto;
 	border: 0px solid darkgrey;
-	padding: 2%;
+	padding: 5px, 2%;
 
 	background-color: #222;
 	color: #999988;
