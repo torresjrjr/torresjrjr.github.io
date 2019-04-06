@@ -62,3 +62,12 @@ p.monospace {
 	background-color: #4CAF50; /* Green */
 	color: white;
 }
+/* Style the search box */
+input.searchbar {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border:1px solid #ddd;
+  background-color: #000;
+  color: #ddd;
+}
