@@ -14,7 +14,7 @@ div.big {
 }
 div.main {
 	max-width: 1024px;
-	min-height: 512px;
+	min-height: 480px;
 
 	margin: auto;
 	border: 0px solid darkgrey;
