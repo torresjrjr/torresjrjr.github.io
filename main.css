@@ -13,8 +13,8 @@ div.big {
 	background-color: #000000;
 }
 div.main {
-	max-width: 1024px;
-	min-height: 512px;
+	max-width: 1024px; /* 16:9 */
+	min-height: 576px; /* ---- */
 
 	margin: auto;
 	border: 0px solid darkgrey;
