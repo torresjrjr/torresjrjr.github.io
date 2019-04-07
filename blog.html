@@ -23,7 +23,7 @@ title: Blog
       {% assign the_author = site.authors | where: 'short_name', post.author | first %}
 
       <h2>
-        <a href="{{ post.url }}">{{ post.title }}</a> - <i><a href="{{ the_author.url }}">{{ post.author }}</a>
+        <a href="{{ post.url }}"><pre>{{ page.title }}</pre></a> - <i><a href="{{ the_author.url }}">{{ post.author }}</a>
         <span style="display:block;float:right;">{{ post.date }}</span></i>
       </h2>
 
