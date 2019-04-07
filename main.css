@@ -52,6 +52,9 @@ p.monospace {
 	color: #CCCCCC;
 	line-height: 1.4;
 }
+.monospace {
+    font-family: Lucida Console, Monaco, Consolas, monospace;
+}
 button {
 	max-height: 32px;
 
