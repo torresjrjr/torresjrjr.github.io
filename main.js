@@ -16,6 +16,16 @@ function darkmode() {
 	document.cookie = "viewmode=dark_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
 	console.log("main.js; darkmode(); cookie: viewmode=dark_mode_1")
 }
+function setViewmode(viewmode) {
+  if (viewmode == "light_mode_1") {
+    lightmode()
+    console.log("main.js; checkCookie(); light_mode_1")
+  } 
+  if (viewmode == "dark_mode_1") {
+    darkmode()
+    console.log("main.js; checkCookie(); dark_mode_1")
+  }
+}
 
 console.log("main.js; cookie reader script start")
 
@@ -37,14 +47,7 @@ function getCookie(cname) {
 
 function checkCookie() {
   var viewmode = getCookie("viewmode");
-  if (viewmode == "light_mode_1") {
-    lightmode()
-    console.log("main.js; checkCookie(); light_mode_1")
-  } 
-  if (viewmode == "dark_mode_1") {
-  	darkmode()
-  	console.log("main.js; checkCookie(); dark_mode_1")
-  }
+  setViewmode(viewmode);
 }
 
 console.log("main.js; cookie reader script end")
