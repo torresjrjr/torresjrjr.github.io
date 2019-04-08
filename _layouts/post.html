@@ -25,7 +25,7 @@ layout: default
   <button onclick="try_to_unlock_post()">🔓 Unlock post.</button>
 
   <p>:: Post excerpt ::</p>
-  {{ excerpt }}
+    {{ content | truncate: 60, "" }}
 
   <hr>
 
