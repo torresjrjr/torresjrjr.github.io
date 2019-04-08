@@ -22,14 +22,14 @@ layout: default
 {% else %}
   <p id="locked_article_status">🔏 This post is locked; It must be unlocked with a key.</p>
 
-  <button onclick="myFunction()">🔓 Unlock post.</button>
+  <button onclick="try_to_unlock_post()">🔓 Unlock post.</button>
 
   <article id="locked_article" style="display: none;">
     {{ content }}
   </article>
 
   <script>
-  function myFunction() {
+  function try_to_unlock_post() {
     var post_key_input = prompt("Please enter the unlock key for this post.", "🗝 Enter unlock key...");
     if (post_key_input != 'test123') {
       document.getElementById("locked_article_status").innerHTML =
