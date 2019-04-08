@@ -73,7 +73,7 @@ button {
 	text-decoration: none;
 }
 button:hover {
-	background-color: #667; /* Green */
+	background-color: #336;
 	color: #CCC;
 }
 /* Style the search box */
@@ -159,7 +159,7 @@ div.header_div {
 	text-decoration: none;
 }
 .header_item:hover {
-	background-color: #111;
+	background-color: #336;
 }
 /*
 .header_button {
