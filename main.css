@@ -144,7 +144,7 @@ div.header_div {
 	overflow: auto;
 }
 .header_ul_li {
-	float: right;
+	float: left;
 }
 .header_item {
 	box-sizing: border-box;
