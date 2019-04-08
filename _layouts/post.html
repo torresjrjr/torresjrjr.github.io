@@ -17,3 +17,13 @@ layout: default
 <hr>
 
 {{ content }}
+
+<hr>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% if author %}
+    More From Author - <a href="{{ author.url }}">{{ author.name }}</a>
+  {% endif %}
+</p>
+<p>Back to <a href="{{ site.url }}/blog/">Blog</a></p>
