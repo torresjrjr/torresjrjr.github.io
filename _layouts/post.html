@@ -24,6 +24,11 @@ layout: default
 
   <button onclick="try_to_unlock_post()">🔓 Unlock post.</button>
 
+  <p>Post excerpt:</p>
+  {{ content.excerpt }}
+
+  <hr>
+
   <article id="locked_article" style="display: none;">
     {{ content }}
   </article>
