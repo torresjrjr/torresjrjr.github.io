@@ -109,7 +109,7 @@ input.searchbar {
 }
 #footer {
 	max-width: 1024px;
-	min-height: 96px;
+	min-height: 100px;
 
 	margin: auto;
 	border: 0px solid darkgrey;
