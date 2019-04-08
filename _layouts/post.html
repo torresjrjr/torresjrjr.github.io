@@ -33,8 +33,19 @@ layout: default
     var post_key_input = prompt("Please enter the unlock key for this post.", "🗝 Enter unlock key...");
     if (post_key_input != 'test123') {
       document.getElementById("locked_article_status").innerHTML =
-      "❌ Incorrect key. 🔒 Article remains locked.";
+      "🔏 This post is locked; It must be unlocked with a key.";
+
+      function locked_article_status_initial() {
+        document.getElementById("locked_article_status").innerHTML =
+        "❌ Incorrect key. 🔒 Article remains locked.";
+      }
+
+      setTimeout(locked_article_status_initial, 2000)
+
     } else if (post_key_input == 'test123') {
+      document.getElementById("locked_article_status").innerHTML =
+      "✔ Correct key. 🔓 Article is unlocked.";
+      
       var x = document.getElementById("locked_article");   // Get the element with id="demo"
       x.style.display = "initial";
     }
