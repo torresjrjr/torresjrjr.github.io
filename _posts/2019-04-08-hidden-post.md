@@ -1,7 +1,7 @@
 ---
 layout: post
 author: ted
-type: hidden
+privacy: hidden
 ---
 
 # The Hidden Post
