@@ -7,14 +7,6 @@
 			<button class="header_button" type="button" onclick="darkmode()">Dark Mode</button>
 			<button class="header_button" type="button" onclick="lightmode()">Light Mode</button>
 		</div>
-		<nav class="header_div" style="float: right;">
-			<ul class="header_ul">
-				{% for item in site.data.navigation %}
-				<li class="header_ul_li">
-					<a class="header_item" href="{{ item.link }}" {% if page.url == item.link %}id="current"{% endif %}>{{ item.name | upcase }}</a>	
-				</li>
-				{% endfor %}
-			</ul>
-		</nav>
+		{% include navigation.html %}
 	</div>
 </div>
