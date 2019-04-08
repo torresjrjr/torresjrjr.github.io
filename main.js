@@ -1,6 +1,6 @@
 
 // viewmode. //
-function lightmode() {
+function viewmode_light_mode_1() {
 	document.getElementById("big").style.backgroundColor = "#FFFFFF";
 	document.getElementById("main").style.fontSize = "";
 	document.getElementById("main").style.color = "#000000";
@@ -8,7 +8,7 @@ function lightmode() {
 	document.cookie = "viewmode=light_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
 	console.log("main.js; lightmode(); cookie: viewmode=light_mode_1")
 }
-function darkmode() {
+function viewmode_dark_mode_1() {
 	document.getElementById("big").style.backgroundColor = "#000000";
 	document.getElementById("main").style.fontSize = "";
 	document.getElementById("main").style.color = "#999988";
@@ -16,18 +16,17 @@ function darkmode() {
 	document.cookie = "viewmode=dark_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
 	console.log("main.js; darkmode(); cookie: viewmode=dark_mode_1")
 }
+
 function setViewmode(viewmode) {
   if (viewmode == "light_mode_1") {
-    lightmode()
+    viewmode_light_mode_1()
     console.log("main.js; checkCookie(); light_mode_1")
   } 
   if (viewmode == "dark_mode_1") {
-    darkmode()
+    viewmode_dark_mode_1()
     console.log("main.js; checkCookie(); dark_mode_1")
   }
 }
-
-console.log("main.js; cookie reader script start")
 
 function getCookie(cname) {
   var name = cname + "=";
@@ -49,11 +48,9 @@ function checkCookie() {
   var viewmode = getCookie("viewmode");
   setViewmode(viewmode);
 }
-
-console.log("main.js; cookie reader script end")
+// END viewmode. //
 
 // Blog search bar. //
-
 function BlogSearchbar() {
   console.log("BlogSearchbar")
   // Declare variables
@@ -83,3 +80,4 @@ function BlogSearchbar() {
   }
   console.log("BlogSearchbar END")
 }
+// END Blog search bar. //

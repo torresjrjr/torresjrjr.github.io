@@ -15,9 +15,11 @@ layout: default
 
 <hr>
 
+{% if page.type != hidden %}
 <article>
 	{{ content }}
 </article>
+{% endif %}
 
 <hr>
 
