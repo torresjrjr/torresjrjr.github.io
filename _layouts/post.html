@@ -20,7 +20,7 @@ layout: default
   	{{ content }}
   </article>
 {% else %}
-  <p>🔏 This post is locked. It must be unlocked with a key.</p>
+  <p>🔏 This post is locked; It must be unlocked with a key.</p>
 
   <button onclick="myFunction()">🔓 Unlock post.</button>
 
@@ -32,6 +32,9 @@ layout: default
     if (post_key_input != 'test123') {
       document.getElementById("demo").innerHTML =
       "Hello " + post_key_input + "! How are you today?";
+    } else if (post_key_input == 'test123'){
+      document.getElementById("demo").innerHTML =
+      "unlocked!" + "{{ content}}";
     }
   }
   </script>
