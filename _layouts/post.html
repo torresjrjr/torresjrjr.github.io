@@ -35,7 +35,7 @@ layout: default
 
   <script>
   function try_to_unlock_post() {
-    var post_key_input = prompt("Please enter the unlock key for this post.", "🗝 Enter unlock key...");
+    var post_key_input = prompt("🗝 Enter the unlock key for this post.", "");
     if (post_key_input != 'test123') {
       document.getElementById("locked_article_status").innerHTML =
       "❌ Incorrect key. 🔒 Article remains locked.";
