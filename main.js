@@ -52,7 +52,8 @@ function checkCookie() {
 
 // Blog search bar. //
 function BlogSearchbar() {
-  console.log("BlogSearchbar")
+  console.log("BlogSearchbar()")
+  window.location.href = "http://{{ site.url }}/#blog-searchbar";
   // Declare variables
   var input, filter, ul, li, a, i;
   input = document.getElementById("blog-searchbar");
