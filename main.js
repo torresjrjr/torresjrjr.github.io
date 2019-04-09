@@ -1,10 +1,10 @@
 
 // viewmode. //
 function viewmode_light_mode_1() {
-	document.getElementById("big").style.backgroundColor = "#FFFFFF";
+	document.getElementById("big").style.backgroundColor = "#DDDDDD";
 	document.getElementById("main").style.fontSize = "";
 	document.getElementById("main").style.color = "#000000";
-	document.getElementById("main").style.backgroundColor = "#DDDDDD";
+	document.getElementById("main").style.backgroundColor = "#EEEEEE";
 	document.cookie = "viewmode=light_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
 	console.log("main.js; lightmode(); cookie: viewmode=light_mode_1");
 }
