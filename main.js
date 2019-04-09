@@ -53,7 +53,10 @@ function checkCookie() {
 // Blog search bar. //
 function BlogSearchbar() {
   console.log("BlogSearchbar()")
-  window.location.href = "http://{{ site.url }}/#blog-searchbar";
+  // Go to searchbar.
+  current_website_domain = "http://torresjrjr.com"
+  blog_searchbar_slug = "/#blog-searchbar"
+  window.location.href = current_website_domain + blog_searchbar_slug
   // Declare variables
   var input, filter, ul, li, a, i;
   input = document.getElementById("blog-searchbar");
