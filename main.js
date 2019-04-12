@@ -93,7 +93,7 @@ function BlogSearchbar() {
 function makeEditButton(el) {
   const div = document.createElement('div');
   div.className = 'stackedit-button-wrapper';
-  div.innerHTML = '<a href="javascript:void(0)"><img src="http://icons.iconarchive.com/icons/saki/nuoveXT/96/Small-arrow-right-icon.png">Edit with StackEdit</a>';
+  div.innerHTML = '<a href="javascript:void(0)">Edit with StackEdit</a>';
   el.parentNode.insertBefore(div, el.nextSibling);
   return div.getElementsByTagName('a')[0];
 }
