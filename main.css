@@ -152,12 +152,13 @@ div.header_div {
 	max-height: 32px;
 
 	padding: 9px;
-	margin: 0px, 2px;
+	border: 0px;
+	margin: 0px, 3px;
 
 	text-align: center;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 14px;
-	background-color: #000;
+	background-color: #111;
 	color: #CCC;
 	text-decoration: none;
 }
