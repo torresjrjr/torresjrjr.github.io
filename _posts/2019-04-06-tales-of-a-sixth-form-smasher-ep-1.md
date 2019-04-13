@@ -10,7 +10,6 @@ episode: 1
 
 # Tales of a Sixth Form Smasher
 ## Ep 1 - Walk in the Park on Valentine's Day
-
 Handsome, intellectual and an abstract thinker. I am a total sex machine capable of bedding various types of bitches with various unique strategies. If I was to tell you how many girls I'd fucked, I'd have to give you the answer in standard form! My name is Smashmaster AT69, but you can call me Smashy. Many times the odds have been stacked against me in the eyes of the average person. But the key to being a smashmaster is to remember, there are no leagues, there are no standards and each girl presents a different path for my tallywacker to transcend before it reaches those sweet sugar walls!
 
 So it was Valentine's Day and I'd ran out of sidebitches to plough, well not quite, it's just I can't really fuck a bitch more than three times before the sex becomes platitudinous and soporific. I should have really saved a hot blonde slut that I picked up whilst birdwatching for today; but I got inpatient and ended up fucking her 3 times last night so she was off the menu. So I decided I'd take a walk and see what I could find.

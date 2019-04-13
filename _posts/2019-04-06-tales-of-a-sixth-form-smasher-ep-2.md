@@ -10,7 +10,6 @@ episode: 2
 
 # Tales of a Sixth Form Smasher
 ## Ep 2 - Roadrunner
-
 I was wandering around the street on my paper round at around 2:30am on a cold December night. I came to this one particular house and delivered a newspaper. However, the way the letter box closed as I delivered the newspaper gave me a feeling that there was a sexy little whore loitering within that house. I began picturing her in my head and then got carried away in thought and accidentally knocked over their outdoor plasma TV which was on their front lawn. My heart raced and I scurries away. I then saw a sexy blonde slut with relatively large tits look out the window. I gave her a quick wink and then got the fuck out of there before I got into any trouble.
 
 As I began delivering to more houses further up the street. The thought of that sexy blonde frequently entered my mind and I couldn't stop thinking about frantically jamming my tallywacker between her tits. I hadn't fucked a blonde in almost 2 days so I needed to get my fix. It was well overdue. But I didn't know how to go back in there, especially after breaking their TV. But then I had a brilliant idea.
