@@ -53,7 +53,7 @@ p.monospace {
 	line-height: 1.4;
 }
 .monospace {
-    font-family: Lucida Console, Monaco, Consolas, monospace;
+    font-family: "Lucida Console", Monaco, Consolas, monospace;
 }
 button {
 	max-height: 32px;
@@ -154,6 +154,7 @@ div.header_div {
 	padding: 9px;
 
 	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 14px;
 	color: #CCC;
 	text-decoration: none;
