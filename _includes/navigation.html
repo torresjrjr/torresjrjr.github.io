@@ -2,7 +2,7 @@
 	<ul class="header_ul" style="float: right;">
 		{% for item in site.data.navigation %}
 		<li class="header_ul_li">
-			<a class="header_item" href="{{ item.link }}" {% if page.url == item.link %} id="current" {% endif %} > {{ item.name | upcase }} - {{ page.url }} - {{ item.link + ".html" }} </a>	
+			<a class="header_item" href="{{ item.link }}" {% if page.url == item.link %} id="current" {% endif %} > {{ item.name | upcase }} - {{ page.url | remove: ".html"}} - {{ item.link }} </a>	
 		</li>
 		{% endfor %}
 	</ul>
