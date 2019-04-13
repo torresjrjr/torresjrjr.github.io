@@ -151,7 +151,8 @@ div.header_div {
 	display: inline-block;
 	max-height: 32px;
 
-	padding: 9px;
+	padding: 9px 9px;
+	border: 2px solid yellow;
 
 	text-align: center;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
