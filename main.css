@@ -170,7 +170,7 @@ div.header_div {
 
 	padding: 9px;
 	border: 0px;
-	margin: 0px 2px;
+	margin: 2px 2px;
 
 	text-align: center;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -183,7 +183,7 @@ div.header_div {
 	background-color: #336;
 }
 /*
-.header_button {
+.header_item_button {
 	box-sizing: border-box;
 	display: inline-block;
 	max-height: 32px;
