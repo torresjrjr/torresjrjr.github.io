@@ -152,7 +152,7 @@ div.header_div {
 	display: inline-block;
 	max-height: 32px;
 
-	padding: 9px;
+	padding: auto;
 	border: 0px;
 	margin: 2px 2px;
 
