@@ -145,7 +145,7 @@ div.header_div {
 }
 .header_ul_li {
 	float: left;
-	margin: 0px 2px;
+	margin: 0px;
 }
 .header_item {
 	box-sizing: border-box;
@@ -154,7 +154,7 @@ div.header_div {
 
 	padding: 9px;
 	border: 0px;
-	margin: 0px;
+	margin: 0px 2px;
 
 	text-align: center;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
