@@ -152,7 +152,7 @@ input.searchbar {
 	display: inline-block;
 	height: 32px;
 
-	padding: 7px;
+	padding: auto;
 	border: 0px;
 	margin: 2px 2px;
 
