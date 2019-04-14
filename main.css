@@ -126,7 +126,7 @@ input.searchbar {
   clear: both;
   display: table;
 }
-div.header_div {
+.header_div {
 	box-sizing: border-box;
 	display: inline-block;
 	float: left;
