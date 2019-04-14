@@ -3,8 +3,8 @@
 		{% for item in site.data.navigation %}
 		<li class="header_ul_li">
 			{% assign page_url_wo_html_ext = page.url | remove: ".html" %}
-			<a class="header_ul_li_i" href="{{ item.link }}" {% if page_url_wo_html_ext == item.link %} id="current" {% endif %} >
-				<div class="header_item">
+			<a class="header_ul_li_i" href="{{ item.link }}">
+				<div class="header_item" {% if page_url_wo_html_ext == item.link %} id="current" {% endif %} >
 					{{ item.name | upcase }} - {{ page_url_wo_html_ext }} - {{ item.link }}
 				</div>
 			</a>	
