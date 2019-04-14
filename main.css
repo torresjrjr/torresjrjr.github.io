@@ -152,9 +152,6 @@ input.searchbar {
 	border: 0px;
 	margin: 0px 0px;
 }
-.header_ul_li_i:hover {
-	background-color: #336;
-}
 .header_item {
 	box-sizing: border-box;
 	display: inline-block;
