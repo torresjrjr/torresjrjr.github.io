@@ -1,11 +1,12 @@
-
-<ul class="header_ul" style="float: right;">
-	{% for item in site.data.navigation %}
-	<li class="header_ul_li">
-		{% assign page_url_wo_html_ext = page.url | remove: ".html" %}
-		<a class="header_ul_li_i" href="{{ item.link }}" {% if page_url_wo_html_ext == item.link %} id="current" {% endif %} >
-			{{ item.name | upcase }}
-		</a>	
-	</li>
-	{% endfor %}
-</ul>
+<nav class="header_div" style="float: right;">
+	<ul class="header_ul" style="float: right;">
+		{% for item in site.data.navigation %}
+		<li class="header_ul_li">
+			{% assign page_url_wo_html_ext = page.url | remove: ".html" %}
+			<a class="header_ul_li_i" href="{{ item.link }}" {% if page_url_wo_html_ext == item.link %} id="current" {% endif %} >
+				{{ item.name | upcase }}
+			</a>	
+		</li>
+		{% endfor %}
+	</ul>
+</nav>
