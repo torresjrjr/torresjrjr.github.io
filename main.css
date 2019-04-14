@@ -182,19 +182,21 @@ div.header_div {
 .header_item:hover {
 	background-color: #336;
 }
-/*
 .header_item_button {
-	box-sizing: border-box;
-	display: inline-block;
 	max-height: 32px;
 
-	padding: auto;
-
+	margin: 2px 2px;
+	border: 1px solid #333;
+	border-radius: 8px;
+	padding: 8px 16px;
+	
+	background-color: #000;
+	color: #CCC;
+	
 	text-align: center;
 	font-size: 14px;
 	text-decoration: none;
 } 
-*/
 #current {
 	text-decoration: underline;
 }
