@@ -155,13 +155,6 @@ input.searchbar {
 	padding: 0px;
 	border: 0px;
 	margin: 0px 0px;
-
-	text-align: center;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 14px;
-	background-color: #111;
-	color: #CCC;
-	text-decoration: none;
 }
 .header_ul_li_i:hover {
 	background-color: #336;
