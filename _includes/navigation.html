@@ -5,7 +5,7 @@
 			{% assign page_url_wo_html_ext = page.url | remove: ".html" %}
 			<a class="header_ul_li_i" href="{{ item.link }}" {% if page_url_wo_html_ext == item.link %} id="current" {% endif %} >
 				<div class="header_item">
-					{{ item.name | upcase }}
+					{{ item.name | upcase }} - {{ page_url_wo_html_ext }} - {{ item.link }}
 				</div>
 			</a>	
 		</li>
