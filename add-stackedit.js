@@ -236,7 +236,7 @@ const MDplaceholder = `
 Markdown
 ========
 
-This is some replaceable samole text.
+This is some replaceable sample text.
 
 ## What is Markdown?
 It's a super cool, readible and naturally simple _language_ written completely in **plaintext!**
@@ -257,7 +257,7 @@ Here is link example:
 Go to my [link](www.torresjrjr.com) for more.
 
 Here is an image example:
-![A description of the image](http://imgur.com/SoeMydg) 
+![A description of the image](https://imgur.com/gallery/SoeMydg) 
 
 
 To see what else you can do with Markdown (including **tables**, **images**, **numbered lists**, and more) take a look at the [Cheatsheet][1]. And then try it out by typing in this box!
