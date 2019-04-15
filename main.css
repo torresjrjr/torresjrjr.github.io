@@ -189,7 +189,10 @@ input.searchbar {
 #current {
 	text-decoration: underline;
 }
-.md-editor-textarea, .terminal-textarea {
+.md-editor-textarea {
 	max-width: 512px;
 	min-height: 256px;
+}
+.terminal-textarea {
+	width: 100%;
 }
