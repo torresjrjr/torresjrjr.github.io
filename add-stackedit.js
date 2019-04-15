@@ -232,19 +232,37 @@ class Stackedit {
 
 const el = document.querySelector('textarea');
 
-const MDplaceholder = 
-`This is just a sample. You can play around with your own text right here.
-
+const MDplaceholder = `
 Markdown
--------------
+========
 
-...is really just ordinary text, *plain and simple*. How is it good for you?
+This is some replaceable samole text.
 
-- You just **type naturally**, and the result looks good.
-- You **don't have to worry** about clicking formatting buttons.
-  - Or fiddling with indentation. (Two spaces is all you need.)
+## What is Markdown?
+It's a super cool, readible and naturally simple _language_ written completely in **plaintext!**
+
+You can then convert it to pretty, good old browser-readible HTML code.
+
+### Features
+Here's a list of features:
+- headings (by using `#`'s and `-----`'s) 
+- paragraphs (just hit enter twice)
+- lists (like this one with `-`'s) 
+  1. Indented lists (with **two** extra spaces)
+  2. numbered lists (like this one, with `1.` etc) 
+- links
+- images, etc.
+
+Here is link example:
+Go to my [link](www.torresjrjr.com) for more.
+
+Here is an image example:
+![A description of the image](http://imgur.com/SoeMydg) 
+
 
 To see what else you can do with Markdown (including **tables**, **images**, **numbered lists**, and more) take a look at the [Cheatsheet][1]. And then try it out by typing in this box!
+
+---
 
 [1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
 `;
