@@ -213,7 +213,7 @@ class Stackedit {
 
 
 //const divEl = document.querySelector('div');
-const divEl = document.getElementById('stackedit_div');
+//const divEl = document.getElementById('stackedit_div');
 const divEl = document.getElementById('output1_div');
 //const el = document.querySelector('textarea');
 const el = document.getElementById('stackedit_textarea');
