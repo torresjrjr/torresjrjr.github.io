@@ -211,7 +211,7 @@ class Stackedit {
 
 // export default Stackedit;
 //--------------------------------------------------//
-
+/*
   const el = document.querySelector('textarea');
   const stackedit = new Stackedit();
 
@@ -227,3 +227,29 @@ class Stackedit {
   stackedit.on('fileChange', (file) => {
     el.value = file.content.text;
   });
+*/
+// --- //
+
+const el = document.querySelector('textarea');
+
+const MDplaceholder = 'Hi there!'
+
+el.value = MDplaceholder;
+
+function open_MD_Editor() {
+  const el = document.querySelector('textarea');
+  const stackedit = new Stackedit();
+
+  // Open the iframe
+  stackedit.openFile({
+    name: 'Filename', // with an optional filename
+    content: {
+      text: el.value // and the Markdown content.
+    }
+  });
+
+  // Listen to StackEdit events and apply the changes to the textarea.
+  stackedit.on('fileChange', (file) => {
+    el.value = file.content.text;
+  });  
+}
