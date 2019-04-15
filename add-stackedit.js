@@ -232,7 +232,7 @@ class Stackedit {
 
 const el = document.querySelector('textarea');
 
-const MDplaceholder = `
+const MDplaceholder = ```
 Markdown
 ========
 
@@ -265,7 +265,7 @@ To see what else you can do with Markdown (including **tables**, **images**, **n
 ---
 
 [1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
-`;
+```;
 
 el.value = MDplaceholder;
 
