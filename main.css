@@ -189,7 +189,7 @@ input.searchbar {
 #current {
 	text-decoration: underline;
 }
-.stackedit-textarea {
+#stackedit-textarea {
 	max-width: 512px;
 	min-height: 256px;
 }

@@ -212,16 +212,18 @@ class Stackedit {
 // export default Stackedit;
 
 
-const el = document.querySelector('textarea');
+//const el = document.querySelector('textarea');
+const el = document.getElementById('stackedit_div');
+//const divEl = document.querySelector('div');
+const divEl = document.getElementById('stackedit_textarea');
 const stackedit = new Stackedit();
 
-// Open the iframe
 stackedit.openFile({
   name: 'Filename',
   content: { text: 'Hello **Markdown** writer!' }
-});
+}, true /* silent mode */);
 
-// Listen to StackEdit events and apply the changes to the textarea.
+// In silent mode, the `fileChange` event is emitted only once.
 stackedit.on('fileChange', (file) => {
-  el.value = file.content.text;
+  divEl.innerHTML = file.content.html;
 });
