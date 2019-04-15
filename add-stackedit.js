@@ -212,10 +212,10 @@ class Stackedit {
 // export default Stackedit;
 
 
-//const el = document.querySelector('textarea');
-const el = document.getElementById('stackedit_div');
 //const divEl = document.querySelector('div');
-const divEl = document.getElementById('stackedit_textarea');
+const divEl = document.getElementById('stackedit_div');
+//const el = document.querySelector('textarea');
+const el = document.getElementById('stackedit_textarea');
 const stackedit = new Stackedit();
 
 stackedit.openFile({
