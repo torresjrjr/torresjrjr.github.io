@@ -190,8 +190,8 @@ input.searchbar {
 	text-decoration: underline;
 }
 #stackedit-textarea {
-	max-width: 512px;
-	min-height: 256px;
+	width: 100%;
+	min-height: 512px;
 }
 .terminal-textarea {
 	width: 100%;
