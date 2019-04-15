@@ -221,7 +221,7 @@ class Stackedit {
     content: {
       text: el.value // and the Markdown content.
     }
-  }, true);
+  });
 
   // Listen to StackEdit events and apply the changes to the textarea.
   stackedit.on('fileChange', (file) => {
