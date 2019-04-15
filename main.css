@@ -191,4 +191,5 @@ input.searchbar {
 }
 .md-editor-textarea, .terminal-textarea {
 	width: 100%;
+	min-height: 128px;
 }
