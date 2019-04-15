@@ -205,7 +205,9 @@ textarea {
 #stackedit-textarea {
 	width: 100%;
 	min-height: 512px;
+	font-size: 12px;
 }
 .terminal-textarea {
 	width: 100%;
+	font-size: 16px
 }
