@@ -245,11 +245,11 @@ You can then convert it to pretty, good old browser-readible HTML code.
 
 ### Features
 Here's a list of features:
-- headings (by using `#`'s and `-----`'s) 
+- headings (by using \`#\`'s and \`-----\`'s) 
 - paragraphs (just hit enter twice)
-- lists (like this one with `-`'s) 
+- lists (like this one with \`-\`'s) 
   1. Indented lists (with **two** extra spaces)
-  2. numbered lists (like this one, with `1.` etc) 
+  2. numbered lists (like this one, with \`1.\` etc) 
 - links
 - images, etc.
 
