@@ -219,7 +219,7 @@ const stackedit = new Stackedit();
 stackedit.openFile({
   name: 'Filename',
   content: { text: 'Hello **Markdown** writer!' }
-}, true /* silent mode */);
+});
 
 // Listen to StackEdit events and apply the changes to the textarea.
 stackedit.on('fileChange', (file) => {
