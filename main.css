@@ -207,10 +207,13 @@ textarea {
 	min-width: 50%;
 	max-width: 100%;
 	min-height: 512px;
-	
+
 	font-size: 12px;
 }
 .terminal-textarea {
 	width: 100%;
 	font-size: 16px
+}
+#stackedit_preview {
+	
 }

@@ -270,6 +270,7 @@ el.value = MDplaceholder;
 
 function open_MD_Editor() {
   const el = document.querySelector('textarea');
+  const pre = document.getElementById('stackedit_preview');
   const stackedit = new Stackedit();
 
   // Open the iframe
@@ -283,5 +284,6 @@ function open_MD_Editor() {
   // Listen to StackEdit events and apply the changes to the textarea.
   stackedit.on('fileChange', (file) => {
     el.value = file.content.text;
+    pre.innerHTML = file.content.html;
   });  
 }
