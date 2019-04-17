@@ -232,8 +232,8 @@ class Stackedit {
 
 const el = document.querySelector('textarea');
 
-const MDplaceholder = `
-Markdown
+const MDplaceholder = 
+`Markdown
 ========
 
 This is some replaceable sample text.
@@ -257,8 +257,7 @@ Here is link example:
 Go to my [link](www.torresjrjr.com) for more.
 
 Here is an image example:
-![A description of the image](https://i.imgur.com/SoeMydgh.jpg) 
-
+![A description of the image](https://i.imgur.com/SoeMydgh.jpg)
 
 To see what else you can do with Markdown (including **tables**, **images**, **numbered lists**, and more) take a look at the [Cheatsheet][1]. And then try it out by typing in this box!
 
