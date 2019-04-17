@@ -236,33 +236,33 @@ const MDplaceholder =
 `Markdown
 ========
 
-This is some replaceable sample text.
+Write your post content here.
 
 ## What is Markdown?
-It's a super cool, readible and naturally simple _language_ written completely in **plaintext!**
+It's a super cool, readible and naturally simple _language_ or \`code\` written completely in **plaintext!**
 
 You can then convert it to pretty, good old browser-readible HTML code.
 
 ### Features
 Here's a list of features:
-- headings (by using \`#\`'s and \`-----\`'s) 
-- paragraphs (just hit enter twice)
-- lists (like this one with \`-\`'s) 
-  1. Indented lists (with **two** extra spaces)
-  2. numbered lists (like this one, with \`1.\` etc) 
-- links
-- images, etc.
+- Headings (with preceding \`#\`'s; or a subsequent \`-----\`).
+- Paragraphs (just hit \`enter\`, once or twice).
+- Lists (like this one with \`-\`'s).
+  1. Indented lists (with **two** preceding spaces).
+  2. Numbered lists (like this one, with \`1.\` \`2.\` etc).
+- links, images, and other embed-able things.
 
-Here is link example:
-Go to my [link](www.torresjrjr.com) for more.
+You can add a [link](www.torresjrjr.com) like this one.
 
-Here is an image example:
-![A description of the image](https://i.imgur.com/SoeMydgh.jpg)
+You can embed images with a description, like the following:
+![A cute kitten.](https://i.imgur.com/kdxF7mV.png)
 
-To see what else you can do with Markdown (including **tables**, **images**, **numbered lists**, and more) take a look at the [Cheatsheet][1]. And then try it out by typing in this box!
-
+> Blockquotes are preceded with a \`>\`. 
+> 
+> To see what else you can do with Markdown 
+> (including **tables**, **code blocks**, **diagrams**, and more) 
+> take a look at this [Cheatsheet][1].
 ---
-
 [1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
 `;
 
