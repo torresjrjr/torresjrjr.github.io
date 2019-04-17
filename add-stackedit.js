@@ -262,7 +262,7 @@ You can embed images with a description, like the following:
 > To see what else you can do with Markdown 
 > (including **tables**, **code blocks**, **diagrams**, and more) 
 > take a look at this [Cheatsheet][1].
----
+
 [1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
 `;
 
