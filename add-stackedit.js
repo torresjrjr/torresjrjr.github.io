@@ -236,7 +236,7 @@ const MDplaceholder =
 `Markdown
 ========
 
-Write your post content here.
+Write your own post content here.
 
 ## What is Markdown?
 It's a super cool, readible and naturally simple _language_ or \`code\` written completely in **plaintext!**
@@ -268,9 +268,12 @@ You can embed images with a description, like the following:
 
 el.value = MDplaceholder;
 
+const pre = document.getElementById('stackedit_preview'); // Mine. Preview div.
+pre.innerHTML = file.content.html; // Mine. Preview div.
+
 function open_MD_Editor() {
   const el = document.querySelector('textarea');
-  const pre = document.getElementById('stackedit_preview');
+  const pre = document.getElementById('stackedit_preview'); // Mine. Preview div.
   const stackedit = new Stackedit();
 
   // Open the iframe
@@ -284,6 +287,6 @@ function open_MD_Editor() {
   // Listen to StackEdit events and apply the changes to the textarea.
   stackedit.on('fileChange', (file) => {
     el.value = file.content.text;
-    pre.innerHTML = file.content.html;
+    pre.innerHTML = file.content.html; // Mine. Preview div.
   });  
 }
