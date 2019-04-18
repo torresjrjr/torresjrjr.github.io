@@ -235,16 +235,15 @@ const el = document.querySelector('textarea');
 const MDplaceholder = 
 `Markdown
 ========
-
 Write your own post content here.
 
 ## What is Markdown?
 It's a super cool, readible and naturally simple _language_ or \`code\` written completely in **plaintext!**
-
 You can then convert it to pretty, good old browser-readible HTML code.
 
 ### Features
 Here's a list of features:
+
 - Headings (with preceding \`#\`'s; or a subsequent \`-----\`).
 - Paragraphs (just hit \`enter\`, once or twice).
 - Lists (like this one with \`-\`'s).
@@ -252,9 +251,10 @@ Here's a list of features:
   2. Numbered lists (like this one, with \`1.\` \`2.\` etc).
 - links, images, and other embed-able things.
 
+### Embed Content
 You can add a [link](www.torresjrjr.com) like this one.
-
 You can embed images with a description, like the following:
+
 ![A cute kitten.](https://i.imgur.com/kdxF7mV.png)
 
 > Blockquotes are preceded with a \`>\`. 
@@ -262,6 +262,7 @@ You can embed images with a description, like the following:
 > To see what else you can do with Markdown 
 > (including **tables**, **code blocks**, **diagrams**, and more) 
 > take a look at this [Cheatsheet][1].
+
 
 [1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
 `;
