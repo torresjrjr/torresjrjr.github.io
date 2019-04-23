@@ -9,7 +9,8 @@ layout: default
   {{ page.date | date_to_string }}
   {% assign author = site.users | where: 'username', page.author | first %}
   {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
+    - <a href="{{ author.url }}">{{ author.displayname }}</a>
+    - <a href="{{ author.url }}"><span class="monospace">{{ page.username }}</span></a> | {{ page.displayname }}
   {% endif %}
 </p>
 
