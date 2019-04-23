@@ -88,7 +88,7 @@ function BlogSearchbar() {
 //--- MD Editor. ---//
 // --- //
 
-function testfunc(): {
+function testfunc() {
   var input = document.getElementById("terminal-input");
   var output = document.querySelector('textarea');
   output.value = input.value;
