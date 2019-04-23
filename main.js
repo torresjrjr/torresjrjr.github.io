@@ -6,7 +6,7 @@ function viewmode_light_mode_1() {
 	document.getElementById("main").style.color = "#000000";
 	document.getElementById("main").style.backgroundColor = "#EEEEEE";
 	document.cookie = "viewmode=light_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
-	console.log("main.js; lightmode(); cookie: viewmode=light_mode_1");
+	console.log("main.js; viewmode_light_mode_1(); cookie: {viewmode=light_mode_1; expires=1 Jan 9999 12:00:00 UTC;}");
 }
 function viewmode_dark_mode_1() {
 	document.getElementById("big").style.backgroundColor = "#000000";
@@ -14,21 +14,22 @@ function viewmode_dark_mode_1() {
 	document.getElementById("main").style.color = "#999988";
 	document.getElementById("main").style.backgroundColor = "#000909";
 	document.cookie = "viewmode=dark_mode_1; expires=1 Jan 9999 12:00:00 UTC;";
-	console.log("main.js; darkmode(); cookie: viewmode=dark_mode_1");
+	console.log("main.js; viewmode_dark_mode_1(); cookie: {viewmode=dark_mode_1; expires=1 Jan 9999 12:00:00 UTC;}");
 }
 
 function setViewmode(viewmode) {
   if (viewmode == "light_mode_1") {
     viewmode_light_mode_1();
-    console.log("main.js; checkCookie(); light_mode_1");
+    console.log("main.js; setViewmode(light_mode_1); viewmode_light_mode_1()");
   } 
   if (viewmode == "dark_mode_1") {
     viewmode_dark_mode_1();
-    console.log("main.js; checkCookie(); dark_mode_1");
+    console.log("main.js; setViewmode(dark_mode_1); viewmode_dark_mode_1()");
   }
 }
 
 function getCookie(cname) {
+  console.log("main.js; getCookie(cname)")
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
@@ -47,6 +48,7 @@ function getCookie(cname) {
 function checkCookie() {
   var viewmode = getCookie("viewmode");
   setViewmode(viewmode);
+  console.log("main.js; checkCookie(); setViewmode(viewmode); viewmode = ", viewmode)
 }
 // END viewmode. //
 
