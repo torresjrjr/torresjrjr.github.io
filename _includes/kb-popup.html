@@ -22,7 +22,8 @@
 	  height: 50%;
 	  padding: 16px;
 	  border: 16px solid orange;
-	  background-color: white;
+	  background-color: #333;
+	  color: #CCC;
 	  z-index: 1002;
 	  overflow: auto;
 	}
@@ -45,7 +46,9 @@ window.onkeyup = function(event) {
 <p style="display: none;">This is the main content. To display a lightbox click <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a>
 </p>
 
-<div id="light" class="white_content">This is the COMMAND SHEET. Press `X` to <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+<div id="light" class="white_content">
+	<h2>COMMAND SHEET</h2>
+	<p>Press `X` to <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></p>
 </div>
 
 <div id="fade" class="black_overlay"></div>
