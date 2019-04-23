@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Staff
+title: Users
 ---
-<h1>✒ Staff</h1>
+<h1>✒ Users</h1>
 
 <ul>
-  {% for author in site.authors %}
+  {% for user in site.users %}
     <li>
-      <h2><a href="{{ author.url | remove: '.html' }}"><span class="monospace">{{ author.short_name }}</span></a> | {{ author.name }}</h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
+      <h2><a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.short_name }}</span></a> | {{ user.name }}</h2>
+      <h3>{{ user.position }}</h3>
+      <p>{{ user.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>
