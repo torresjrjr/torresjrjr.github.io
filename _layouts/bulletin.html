@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<p>↩ Back to <a href="{{ site.url }}">Home</a></p>
+<h2><span class="monospace">{{ page.date }} | {{ page.title }}</span></h2>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% assign author = site.users | where: 'username', page.author | first %}
+  {% if author %}
+    - <a href="{{ author.url }}"><span class="monospace">{{ author.username }}</span></a> | {{ author.displayname }}
+  {% endif %}
+</p>
+
+<hr>
+
+{% if page.privacy != 'hidden' %}
+  <article>
+  	{{ content }}
+  </article>
+{% else %}
+  <p id="locked_article_status">🔏 This post is locked; It must be unlocked with a key.</p>
+
+  <button onclick="try_to_unlock_post()">🔓 Unlock post.</button>
+
+  <p>:: Post excerpt ::</p>
+    {{ content | truncate: 120, "" }}
+
+  <hr>
+
+  <article id="locked_article" style="display: none;">
+    {{ content }}
+  </article>
+
+  <script>
+  function try_to_unlock_post() {
+    var post_key_input = prompt("🗝 Enter the unlock key for this post.", "");
+    if (post_key_input != 'test123') {
+      document.getElementById("locked_article_status").innerHTML =
+      "❌ Incorrect key. 🔒 Article remains locked.";
+
+      function locked_article_status_initial() {
+        document.getElementById("locked_article_status").innerHTML =
+        "🔏 This post is locked; It must be unlocked with a key.";
+      }
+
+      setTimeout(locked_article_status_initial, 2000);
+
+    } else if (post_key_input == 'test123') {
+      document.getElementById("locked_article_status").innerHTML =
+      "✔ Correct key. 🔓 Article is unlocked.";
+      
+      var x = document.getElementById("locked_article");   // Get the element with id="demo"
+      x.style.display = "initial";
+    }
+  }
+  </script>
+{% endif %}
+
+<hr>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% if author %}
+    - More from author - <a href="{{ author.url }}"><span class="monospace">{{ author.username }}</span></a> | {{ author.displayname }}
+  {% endif %}
+</p>
+
+<p>↩ Back to <a href="{{ site.url }}">Home</a></p>

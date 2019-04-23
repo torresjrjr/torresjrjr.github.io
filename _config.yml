@@ -26,5 +26,10 @@ defaults:
       layout: "post"
   - scope:
       path: ""
+      type: "bulletins"
+    values:
+      layout: "bulletin"
+  - scope:
+      path: ""
     values:
       layout: "default"
