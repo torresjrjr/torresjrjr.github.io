@@ -5,6 +5,8 @@ collections:
     output: true
   users:
     output: true
+  bulletins:
+    output: true
 
 defaults:
   - scope:
