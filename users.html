@@ -7,7 +7,7 @@ title: Users
 <ul>
   {% for user in site.users %}
     <li>
-      <h2><a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.short_name }}</span></a> | {{ user.name }}</h2>
+      <h2><a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.username }}</span></a> | {{ user.displayname }}</h2>
       <h3>{{ user.position }}</h3>
       <p>{{ user.content | markdownify }}</p>
     </li>
