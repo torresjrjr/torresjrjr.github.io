@@ -4,6 +4,8 @@
   link: /about
 - name: Blog
   link: /blog
+- name: Posts
+  link: /posts
 - name: Staff
   link: /staff
 - name: Users

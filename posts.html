@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ---
-<h1>📜 Blog</h1>
+<h1>📜 Published Posts</h1>
 <p>
   This is where all the published posts are listed.<br>
   You can search a post by a date or time with this format: 
@@ -20,7 +20,7 @@ title: Blog
 <ul id="blog-list-posts">
   {% for post in site.posts %}
     <li>
-      {% assign the_author = site.authors | where: 'short_name', post.author | first %}
+      {% assign the_author = site.users | where: 'username', post.author | first %}
 
       <h2>
         <a href="{{ post.url | remove: '.html' }}"><span class="monospace">{{ post.title }}</span></a> - <i><a href="{{ the_author.url | remove: '.html' }}">{{ post.author }}</a>
