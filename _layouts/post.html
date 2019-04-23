@@ -63,7 +63,7 @@ layout: default
 <p>
   {{ page.date | date_to_string }}
   {% if author %}
-    - More from author - <a href="{{ author.url }}">{{ author.name }}</a>
+    - More from author - <a href="{{ author.url }}"><span class="monospace">{{ author.username }}</span></a> | {{ author.displayname }}
   {% endif %}
 </p>
 
