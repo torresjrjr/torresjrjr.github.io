@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<p>↩ Back to <a href="{{ site.url }}/staff">Staff</a></p>
+
+<h1>{{ page.name }}</h1>
+<h2><span class="monospace">{{ page.short_name }}</span></h2>
+<h2>{{ page.position }}</h2>
+
+{{ content }}
+
+<h2>Posts</h2>
+<ul>
+  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+  {% for post in filtered_posts %}
+    <li><a href="{{ post.url | remove: '.html' }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<hr>
+
+<p>↩ Back to <a href="{{ site.url }}/staff">Staff</a></p>
