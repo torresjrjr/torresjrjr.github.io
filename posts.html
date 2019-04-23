@@ -24,6 +24,7 @@ title: Blog
 
       <h2>
         <a href="{{ post.url | remove: '.html' }}"><span class="monospace">{{ post.title }}</span></a> - <i><a href="{{ the_author.url | remove: '.html' }}">{{ post.author }}</a>
+        <a href="{{ the_author.url | remove: '.html' }}"><span class="monospace">{{ the_author.username }}</span></a> | {{ the_author.displayname }}
         <span style="display:block;float:right;">{{ post.date }}</span></i>
       </h2>
 
