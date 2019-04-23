@@ -12,6 +12,11 @@ defaults:
       layout: "author"
   - scope:
       path: ""
+      type: "users"
+    values:
+      layout: "user"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
