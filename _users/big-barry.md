@@ -1,5 +1,5 @@
 ---
-username: barry
+username: big-barry
 displayname: Barry Tyler
 position: Writer
 ---
