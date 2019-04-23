@@ -3,7 +3,9 @@ layout: default
 ---
 <p>↩ Back to <a href="{{ site.url }}/users">Users</a></p>
 
-<h1>{{ page.name }}</h1>
+<h1><a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.username }}</span></a> | {{ user.displayname }}</h1>
+
+<h1>{{ page.displayname }}</h1>
 <h2><span class="monospace">{{ page.username }}</span></h2>
 <h2>{{ page.position }}</h2>
 
