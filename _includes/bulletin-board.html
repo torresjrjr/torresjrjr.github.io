@@ -3,7 +3,7 @@
 	<p>Updates will be posted here.</p>
 	<hr>
   
-  {% for bulletin in site.bulletins %}
+  {% for bulletin in site.bulletins | where 'is_live', true %}
     <li>
       <h2>
         <a href="{{ bulletin.url | remove: '.html' }}">
