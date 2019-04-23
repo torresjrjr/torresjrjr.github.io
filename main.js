@@ -87,11 +87,16 @@ function BlogSearchbar() {
 }
 // END Blog search bar. //
 
-//--- MD Editor. ---//
-// --- //
+//--- Terminal ---//
 
 function testfunc() {
   var input = document.getElementById("terminal-input");
   var output = document.querySelector('textarea');
   output.value = input.value;
 }
+
+// --- //
+// --- Keyboard Functionality --- //
+
+
+// --- //
