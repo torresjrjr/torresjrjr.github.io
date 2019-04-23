@@ -1,16 +1,16 @@
 - name: Home
   link: /
-- name: About
-  link: /about
-- name: Blog
-  link: /blog
+#- name: Blog
+#  link: /blog
 - name: Posts
   link: /posts
-- name: Staff
-  link: /staff
+#- name: Staff
+#  link: /staff
 - name: Users
   link: /users
 - name: MD Editor
   link: /md-editor
 - name: Terminal
   link: /terminal
+- name: About
+  link: /about
