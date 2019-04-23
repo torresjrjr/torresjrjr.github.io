@@ -1,4 +1,19 @@
 <div class="bulletinboard">
 	<h2>Bulletin Board</h2>
 	<p>The quick brown fox jumps over the lazy dog.</p>
+  
+  {% for bulletin in site.bulletins %}
+    <li>
+      <h2>
+        <a href="{{ bulletin.url | remove: '.html' }}">
+          <span class="monospace"><b>{{ bulletin.title }}</b></span>
+        </a> -- 
+        <a href="{{ the_author.url | remove: '.html' }}"><span class="monospace">{{ bulletin.author }}</span></a> | {{ the_author.displayname }}
+        <i><span style="display:block;float:right;">{{ bulletin.date }}</span></i>
+      </h2>
+
+      {{ bulletin.excerpt }}<p>. . .</p>
+    </li>
+  {% endfor %}
+
 </div>
