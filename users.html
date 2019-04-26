@@ -11,8 +11,7 @@ title: Users
       <h2><a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.username }}</span></a> | {{ user.displayname }}</h2>
       <h3>{{ user.position }}</h3>
       <picture>
-      	<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="128" height="128">
-      	<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.png" width="128" height="128">
+      	<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="128" height="128" style="border-radius: 64px">
       </picture>
       <p>{{ user.excerpt | markdownify }}</p>
     </li>
