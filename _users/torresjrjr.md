@@ -2,7 +2,7 @@
 username: torresjrjr
 displayname: torresjrjr⚡
 position: Admin
-dp:
+dp: default
 ---
 Creator of the site.
 
