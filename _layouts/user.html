@@ -12,9 +12,7 @@ layout: default
 	<img src="{{ site.url }}/assets/images/user_dp/{{ page.username }}.jpg" width="64" height="64" style="border-radius: 64px">
 	{% endcase %}
 </picture>
-	<a href="{{ page.url | remove: '.html' }}">
-		<span class="monospace">{{ page.username }}</span>
-	</a> | {{ page.displayname }}
+	<a href="{{ page.url | remove: '.html' }}"><span class="monospace">{{ page.username }}</span></a> | {{ page.displayname }}
 </h1>
 
 
