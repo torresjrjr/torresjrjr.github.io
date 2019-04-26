@@ -2,6 +2,7 @@
 username: skinnyboipomps
 displayname: Pompidou
 position: Writer
+dp: default
 ---
 Knows the perfect schlop technique, and likes Naruto.
 
