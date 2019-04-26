@@ -10,7 +10,7 @@ title: Users
     <li>
       <h2><a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.username }}</span></a> | {{ user.displayname }}</h2>
       <h3>{{ user.position }}</h3>
-      <p>{{ user.content..excerpt | markdownify }}</p>
+      <p>{{ user.content.excerpt | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>
