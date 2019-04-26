@@ -209,6 +209,7 @@ textarea {
 	min-height: 256px;
 	max-height: 95%;
 
+	border: #999
 	background-color: #0c000c;
 	font-size: 16px;
 	color: #ABB;
