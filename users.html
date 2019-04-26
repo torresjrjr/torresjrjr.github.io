@@ -12,10 +12,13 @@ title: Users
       <h3>{{ user.position }}</h3>
       <picture>
       	{% if user.dp == '' %}
+      	<p>elsif user.dp == '' True</p>
       	<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="128" height="128" style="border-radius: 64px">
       	{% elsif user.dp %}
+      	<p>elsif user.dp True</p>
       	<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="128" height="128" style="border-radius: 64px">
       	{% else %}
+      	<p>else True</p>
       	<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="128" height="128" style="border-radius: 64px">
       	{% endif %}
       </picture>
