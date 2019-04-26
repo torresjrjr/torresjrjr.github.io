@@ -207,12 +207,12 @@ textarea {
 	min-width: 50%;
 	max-width: 100%;
 	min-height: 256px;
-	max-height: 95%;
+	max-height: 95vh;
 
-	border: #999
+	border: #666
 	background-color: #0c000c;
 	font-size: 16px;
-	color: #ABB;
+	color: #9BB;
 }
 .terminal-textarea {
 	width: 100%;
