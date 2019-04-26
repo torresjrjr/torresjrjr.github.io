@@ -5,4 +5,4 @@ position: Writer
 ---
 Knows the perfect schlop technique, and likes Naruto.
 
-![Phat necc fading.](/assets/images/user_profile_pic/phat-necc-fading.jpg)
+![Phat necc fading.](/assets/images/user_dp/big-nuts-steph.jpg)
