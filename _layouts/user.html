@@ -4,7 +4,6 @@ layout: default
 <p>↩ Back to <a href="{{ site.url }}/users">Users</a></p>
 
 <h1>
-	<a href="{{ page.url | remove: '.html' }}">
 <picture>
 	{% case page.dp %}
 		{% when 'default' %}
@@ -13,6 +12,7 @@ layout: default
 	<img src="{{ site.url }}/assets/images/user_dp/{{ page.username }}.jpg" width="64" height="64" style="border-radius: 64px">
 	{% endcase %}
 </picture>
+	<a href="{{ page.url | remove: '.html' }}">
 		<span class="monospace">{{ page.username }}</span>
 	</a> | {{ page.displayname }}
 </h1>
