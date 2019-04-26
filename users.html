@@ -13,8 +13,9 @@ title: Users
       <picture>
       	{% if user.dp == '' %}
       	<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="128" height="128" style="border-radius: 64px">
-      	{% endif %}
+      	{% else %}
       	<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="128" height="128" style="border-radius: 64px">
+      	{% endif %}
       </picture>
       <p>{{ user.excerpt | markdownify }}</p>
     </li>
