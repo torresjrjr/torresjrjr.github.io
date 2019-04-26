@@ -209,6 +209,7 @@ textarea {
 	min-height: 256px;
 
 	font-size: 16px;
+	color: #CCC;
 }
 .terminal-textarea {
 	width: 100%;
