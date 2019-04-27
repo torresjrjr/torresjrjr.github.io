@@ -7,7 +7,7 @@ title: Users
 
 <ul>
   {% for user in site.users %}
-    <li>
+    <li style="padding: auto; border: 2px solid #333; border-radius: 5px;">
       <h2>
 		<picture style="float: left; margin-right: 16px;">
 			{% case user.dp %}
@@ -19,7 +19,7 @@ title: Users
 		</picture>
       	<a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.username }}</span></a> | {{ user.displayname }}
       </h2>
-      
+
       <h3>{{ user.position }}</h3>
 
       <p>{{ user.excerpt | markdownify }}</p>
