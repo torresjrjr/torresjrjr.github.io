@@ -12,9 +12,9 @@ title: Users
 		<picture style="float: left; margin-right: 16px;">
 			{% case user.dp %}
 				{% when 'default' %}
-			<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="64" height="64" style="border: 1px solid #999; border-radius: 64px">
+			<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="64" height="64" style="border: 1px solid #999; border-radius: 32px">
 				{% else %}
-			<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="64" height="64" style="border: 1px solid #999; border-radius: 64px">
+			<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="64" height="64" style="border: 1px solid #999; border-radius: 32px">
 			{% endcase %}
 		</picture>
       	<a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.username }}</span></a> | {{ user.displayname }}
