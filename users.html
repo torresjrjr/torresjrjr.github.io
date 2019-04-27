@@ -9,7 +9,7 @@ title: Users
   {% for user in site.users %}
     <li style="margin: 8px 0px; padding: 0px 16px; border-bottom: 1px solid #111; border-radius: 8px;">
       <h2>
-		<picture style="float: left; margin-right: 16px;">
+		<picture style="float: left; margin-right: 16px; border: 1px solid #999;">
 			{% case user.dp %}
 				{% when 'default' %}
 			<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="64" height="64" style="border-radius: 64px">
