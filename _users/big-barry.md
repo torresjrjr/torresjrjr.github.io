@@ -2,6 +2,6 @@
 username: big-barry
 displayname: Barry Tyler
 position: Writer
-dp: default
+dp: 
 ---
 Badam's autism inspired some of the greatest works known.
