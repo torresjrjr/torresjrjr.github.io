@@ -10,26 +10,18 @@ title: Users
     <li>
       <h2>
 		<picture style="float: left; margin-right: 16px;">
-			{% case page.dp %}
+			{% case user.dp %}
 				{% when 'default' %}
 			<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="64" height="64" style="border-radius: 64px">
 				{% else %}
-			<img src="{{ site.url }}/assets/images/user_dp/{{ page.username }}.jpg" width="64" height="64" style="border-radius: 64px">
+			<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="64" height="64" style="border-radius: 64px">
 			{% endcase %}
 		</picture>
       	<a href="{{ user.url | remove: '.html' }}"><span class="monospace">{{ user.username }}</span></a> | {{ user.displayname }}
       </h2>
+      
       <h3>{{ user.position }}</h3>
 
-      <picture>
-      	{% case user.dp %}
-      		{% when 'default' %}
-      	<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="64" height="64" style="border-radius: 64px">
-      		{% else %}
-      	<img src="{{ site.url }}/assets/images/user_dp/{{ user.username }}.jpg" width="64" height="64" style="border-radius: 64px">
-      	{% endcase %}
-      </picture>
-      
       <p>{{ user.excerpt | markdownify }}</p>
     </li>
   {% endfor %}
