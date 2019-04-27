@@ -7,9 +7,9 @@ layout: default
 	<picture style="float: left; margin-right: 16px;">
 		{% case page.dp %}
 			{% when 'default' %}
-		<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="64" height="64" style="border-radius: 64px">
+		<img src="{{ site.url }}/assets/images/user_dp/default.jpg" width="96" height="96" style="border-radius: 64px">
 			{% else %}
-		<img src="{{ site.url }}/assets/images/user_dp/{{ page.username }}.jpg" width="64" height="64" style="border-radius: 64px">
+		<img src="{{ site.url }}/assets/images/user_dp/{{ page.username }}.jpg" width="96" height="96" style="border-radius: 64px">
 		{% endcase %}
 	</picture>
 	<a href="{{ page.url | remove: '.html' }}"><span class="monospace">{{ page.username }}</span></a> | {{ page.displayname }}
