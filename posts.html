@@ -12,12 +12,12 @@ title: Blog
 </p>
 
 <div style="padding: 1px;">
-  <input type="text" class="searchbar" id="blog-searchbar" onkeyup="BlogSearchbar()" placeholder="🔍 Filter posts..." title="Type in a post">
+  <input type="text" class="searchbar" id="searchbar" onkeyup="Searchbar()" placeholder="🔍 Filter posts..." title="Type in a post">
 </div>
 
 <hr>
 
-<ul id="blog-list-posts">
+<ul id="searchbar-list">
   {% for post in site.posts %}
     <li>
       {% assign the_author = site.users | where: 'username', post.author | first %}

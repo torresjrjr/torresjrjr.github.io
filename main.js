@@ -53,18 +53,18 @@ function checkCookie() {
 // END viewmode. //
 
 // Blog search bar. //
-function BlogSearchbar() {
-  console.log("BlogSearchbar()")
+function Searchbar() {
+  console.log("Searchbar()")
   // Go to searchbar.
-  input = document.getElementById("blog-searchbar");
+  input = document.getElementById("searchbar");
   input.scrollIntoView();
   // Declare variables
   var input, filter, ul, li, a, i;
-  input = document.getElementById("blog-searchbar");
+  input = document.getElementById("searchbar");
   console.log(input);
   filter = input.value.toUpperCase();
   console.log(filter);
-  ul = document.getElementById("blog-list-posts");
+  ul = document.getElementById("searchbar-list");
   console.log(ul);
   li = ul.getElementsByTagName("li");
   console.log(li);
@@ -83,7 +83,7 @@ function BlogSearchbar() {
       console.log("else is true")
     }
   }
-  console.log("BlogSearchbar END")
+  console.log("Searchbar END")
 }
 // END Blog search bar. //
 
