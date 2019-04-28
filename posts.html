@@ -17,7 +17,7 @@ title: Blog
 
 <hr>
 
-<ul id="searchbar-list">
+<ul id="searchbar-list" style="padding: 0px;">
   {% for post in site.posts %}
     <li style="margin: 8px 0px; padding: 0px 16px; border-bottom: 1px solid #222; border-radius: 8px;">
       {% assign the_author = site.users | where: 'username', post.author | first %}
