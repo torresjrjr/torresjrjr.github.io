@@ -5,7 +5,13 @@ title: Users
 <h1>✒ Users</h1>
 <p>To become a user, contact <a href="https://t.me/torresjrjr">here</a></p>
 
-<ul style="padding: 0px;">
+<div style="padding: 1px;">
+  <input type="text" class="searchbar" id="searchbar" onkeyup="Searchbar()" placeholder="🔍 Filter posts..." title="Type in a post">
+</div>
+
+<hr>
+
+<ul id="searchbar-list" style="padding: 0px;">
   {% for user in site.users %}
     <li style="margin: 8px 0px; padding: 0px 16px; border-bottom: 1px solid #222; border-radius: 8px;">
       <h2>
