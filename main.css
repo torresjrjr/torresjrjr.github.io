@@ -33,7 +33,7 @@ p {
 	margin-left: 0;
 	margin-right: 0;
 
-	font-family: Cambria;
+	font-family: 'Open Sans', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	line-height: 1.4;
 }
 p.monospace {
@@ -89,7 +89,7 @@ input.searchbar {
 	background-color: #000;
 	color: #ddd;
 	font-size: 16px;
-	font-family: consolas;
+	font-family: 'Source Code Pro', Consolas, "Lucida Console", Monaco, monospace;
 }
 #header {
 	max-width: 960px;
@@ -162,7 +162,7 @@ input.searchbar {
 	margin: 2px 2px;
 
 	text-align: center;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Open Sans', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 14px;
 	background-color: #111;
 	color: #CCC;
@@ -200,7 +200,7 @@ textarea {
 	background-color: #000;
 	color: #ddd;
 	font-size: 12px;
-	font-family: consolas;
+	font-family: 'Source Code Pro', Consolas, "Lucida Console", Monaco, monospace;
 }
 #stackedit-textarea {
 	width: 100%;
