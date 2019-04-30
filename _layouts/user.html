@@ -22,8 +22,8 @@ layout: default
 
 <h2>Posts</h2>
 <ul>
-  {% assign filtered_posts = site.posts | where: 'author', page.username %}
-  {% for post in filtered_posts %}
+  {% assign posts_of_user = site.posts | where: 'author', page.username %}
+  {% for post in posts_of_user %}
     <li><a href="{{ post.url | remove: '.html' }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
