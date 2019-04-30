@@ -26,6 +26,9 @@ div.main {
 	background-color: #000909;
 	color: #999988;
 }
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+}
 p {
 	display: block;
 	margin-top: 1em;
