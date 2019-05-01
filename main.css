@@ -194,6 +194,7 @@ input.searchbar {
 } 
 #current {
 	text-decoration: underline;
+	border-bottom: 5px solid #244;
 }
 textarea {
 	box-sizing: border-box;
