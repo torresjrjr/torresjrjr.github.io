@@ -8,8 +8,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## What is this website?
 This is a simple static microblog for reading and writing posts and profiles when you're bored. We accept pretty much accept anything here. Video embeds, fanfic, oof-posting, whatever. If you have something hilarious, post it here. It's also a place to dump projects and code. We may expand the functionality of this site, with chats and other features. Who knows.
 
-## Who Runs This?
+## Who runs this?
 dw.
 
-## How Can I Join?
+## How can I join?
 contact me at my [Telegram](https://t.me/torresjrjr).
