@@ -175,7 +175,7 @@ input.searchbar {
 	text-decoration: none;
 }
 .header_item:hover {
-	background-color: #244;
+	background-color: #366;
 }
 .header_item_button {
 	max-height: 32px;
@@ -193,7 +193,7 @@ input.searchbar {
 	text-decoration: none;
 } 
 #current {
-	border-bottom: 4px solid #244;
+	border-bottom: 4px solid #366;
 }
 textarea {
 	box-sizing: border-box;
