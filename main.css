@@ -2,6 +2,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+div {
+	box-sizing: border-box;
+}
 div.big {
 	width: 100%;
 	min-height: 100vh;
