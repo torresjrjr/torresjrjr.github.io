@@ -3,8 +3,8 @@
 	<p>Updates will be posted here.</p>
 	<hr>
   
-  {% for bulletin in site.bulletins | where 'is_live', true %}
   <ul style="padding: 0px;" reverse>
+  {% for bulletin in site.bulletins | where 'is_live', true %}
     <li style="margin: 8px 0px; padding: 0px 16px; border-bottom: 1px solid #222; border-radius: 8px;">
       <h2>
         <a href="{{ bulletin.url | remove: '.html' }}">
@@ -16,7 +16,7 @@
 
       {{ bulletin.excerpt }}<p>. . .</p>
     </li>
-  </ul>
   {% endfor %}
+  </ul>
 
 </div>
