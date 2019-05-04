@@ -88,6 +88,13 @@ function Searchbar() {
 }
 // END Blog search bar. //
 
+function focusOnMe(el_ID) {
+  console.log("focusOnMe("+el_ID+")");
+  input = document.getElementById(el_ID);
+  input.scrollIntoView();
+}
+
+
 //--- Terminal ---//
 
 function testfunc() {
