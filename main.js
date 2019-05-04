@@ -91,10 +91,10 @@ function Searchbar() {
 function focusOnElId(el_ID, position){
   console.log("focusOnMe("+el_ID+", "+position+")");
   input = document.getElementById(el_ID);
-  if(position = 'top'){
+  if(position == 'top'){
     input.scrollIntoView({behaviour: "smooth", block: "start", inline: "nearest"});
   }
-  if(position = 'bottom'){
+  if(position == 'bottom'){
     input.scrollIntoView({behaviour: "smooth", block: "end", inline: "nearest"});
   }
 }
