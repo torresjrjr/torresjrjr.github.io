@@ -46,8 +46,11 @@ p, li {
 	text-justify: inter-word;
 }
 code {
-	background: #8879;
 	font-family: 'Source Code Pro', Consolas, "Lucida Console", Monaco, monospace;
+	background: #8879;
+	padding: 0px, 2px;
+	border: #887A;
+	border-radius: 2px;
 }
 p.monospace {
 	display: block;
