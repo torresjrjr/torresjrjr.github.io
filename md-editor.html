@@ -8,11 +8,12 @@ title: MD Editor
 <p>More features comming soon.</p>
 
 <button onclick="open_MD_Editor()">📝 Open MD Editor</button>
+<button onclick="focusOnElId('stackedit_preview')">👓 Go to preview</button>
 
 <hr>
 
 <div id="stackedit_div">
-<textarea id="stackedit-textarea" onkeyup="focusOnMe('stackedit-textarea')">
+<textarea id="stackedit-textarea" onkeyup="focusOnElId('stackedit-textarea')">
 If the button doesn't work, either:
 	- Open Google Chrome to view this site, or;
 	- Visit stackedit.io/app to use the app directly.

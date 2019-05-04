@@ -88,7 +88,7 @@ function Searchbar() {
 }
 // END Blog search bar. //
 
-function focusOnMe(el_ID) {
+function focusOnElId(el_ID) {
   console.log("focusOnMe("+el_ID+")");
   input = document.getElementById(el_ID);
   input.scrollIntoView({behaviour: "smooth", block: "end", inline: "nearest"});
