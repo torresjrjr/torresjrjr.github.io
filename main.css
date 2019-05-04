@@ -47,6 +47,7 @@ p, li {
 }
 code {
 	font-family: 'Source Code Pro', Consolas, "Lucida Console", Monaco, monospace;
+	font-size: 90%;
 	background: #6676;
 	padding: 0px 2px;
 	border: #6677;
