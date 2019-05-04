@@ -269,7 +269,7 @@ You can embed images with a description, like the following:
 el.value = MDplaceholder;
 
 const pre = document.getElementById('stackedit_preview'); // Mine. Preview div.
-pre.innerHTML = file.content.html; // Mine. Preview div.
+// pre.innerHTML = file.content.html; // Mine. Preview div.
 
 function open_MD_Editor() {
   const el = document.querySelector('textarea');
