@@ -252,7 +252,7 @@ Here's a list of features:
 - links, images, and other embed-able things.
 
 ### Embed Content
-You can add a [link](www.torresjrjr.com) like this one.
+You can add a [link](https://www.torresjrjr.com) like this one.
 You can embed images with a description, like the following:
 
 ![A cute kitten.](https://i.imgur.com/kdxF7mV.png)
