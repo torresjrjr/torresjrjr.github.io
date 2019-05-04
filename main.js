@@ -91,7 +91,7 @@ function Searchbar() {
 function focusOnMe(el_ID) {
   console.log("focusOnMe("+el_ID+")");
   input = document.getElementById(el_ID);
-  input.scrollIntoView();
+  input.scrollIntoView(scrollIntoViewOptions: {behaviour: "smooth", block: "end", inline: "nearest"});
 }
 
 
