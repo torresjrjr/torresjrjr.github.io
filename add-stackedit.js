@@ -264,8 +264,7 @@ You can embed images with a description, like the following:
 > take a look at this [Cheatsheet][1].
 
 
-[1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
-`;
+[1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet`;
 
 el.value = MDplaceholder;
 
