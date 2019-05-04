@@ -6,7 +6,7 @@ title: US Constitution
 
 # The Constitution of the United States of America
 
-> Provided by (USConstitution.net)[https://www.usconstitution.net]
+> Provided by [USConstitution.net](https://www.usconstitution.net)
 
 > **Note**: Repealed text is not noted in this version. Spelling errors have been
 > corrected in this version. For an uncorrected, annotated version of the
