@@ -3,7 +3,6 @@ layout: post
 author: ted
 title: US Constitution
 ---
-
 # The Constitution of the United States of America
 
 > Provided by [USConstitution.net](https://www.usconstitution.net)
@@ -473,9 +472,9 @@ proposing Amendments, which, in either Case, shall be valid to all Intents and
 Purposes, as part of this Constitution, when ratified by the Legislatures of
 three fourths of the several States, or by Conventions in three fourths
 thereof, as the one or the other Mode of Ratification may be proposed by the
-Congress; Provided that no ### Amendment which may be made prior to the Year One
+Congress; Provided that no Amendment which may be made prior to the Year One
 thousand eight hundred and eight shall in any Manner affect the first and
-fourth Clauses in the Ninth ### Section of the first Article; and that no State,
+fourth Clauses in the Ninth Section of the first Article; and that no State,
 without its Consent, shall be deprived of its equal Suffrage in the Senate.
 
 ## Article 6.
@@ -797,7 +796,7 @@ shall be elected to the office of the President more than once. But this
  Article shall not apply to any person holding the office of President, when this
  Article was proposed by the Congress, and shall not prevent any person who may
 be holding the office of President, or acting as President, during the term
-within which this ## Article becomes operative from holding the office of
+within which this Article becomes operative from holding the office of
 President or acting as President during the remainder of such term.
 
 2. This article shall be inoperative unless it shall have been ratified as an
