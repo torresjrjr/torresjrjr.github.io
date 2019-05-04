@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Times New Roman", Times, serif;
 }
 p, li {
-	display: block;
+	/*display: inline-block;*/
 	/*
 	margin-top: 1em;
 	margin-bottom: 1em;
