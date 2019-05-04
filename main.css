@@ -66,7 +66,7 @@ p.monospace {
 }
 blockquote {
   /*background: #FFF1;*/
-  border-left: 10px solid #998C;
+  border-left: 10px solid #887C;
   /*margin: 1.5em 10px;*/
   /*padding: 0.5em 10px;*/
   padding-left: 8px; 
@@ -82,7 +82,7 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
-  color: #998C;
+  color: #887C;
 }
 button {
 	max-height: 32px;
