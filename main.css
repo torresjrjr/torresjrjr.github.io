@@ -238,6 +238,7 @@ textarea {
 	max-width: 100%;
 	min-height: 256px;
 	max-height: 90vh;
+	height: 90vh;
 
 	border: #666
 	background-color: #0c000c;
