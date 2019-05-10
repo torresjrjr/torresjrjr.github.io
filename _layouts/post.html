@@ -16,7 +16,7 @@ layout: default
 <hr>
 
 {% if page.privacy != 'hidden' %}
-  <article>
+  <article class="post">
   	{{ content }}
   </article>
 {% else %}
@@ -29,7 +29,7 @@ layout: default
 
   <hr>
 
-  <article id="locked_article" style="display: none;">
+  <article class="post" id="locked_article" style="display: none;">
     {{ content }}
   </article>
 
