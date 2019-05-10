@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #A0A088;
 }
-article.main h1, h2, h3, h4, h5, h6 {
+article.main h1, article.main h2, article.main h3, article.main h4, article.main h5, article.main h6 {
 	border-bottom: 1px solid #CCC3;
 }
 p, li {
