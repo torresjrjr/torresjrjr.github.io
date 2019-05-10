@@ -32,6 +32,7 @@ div.main {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #9C9C88;
+	border-bottom: 1px solid #CCC3;
 }
 p, li {
 	/*display: inline-block;*/
