@@ -4,9 +4,12 @@
 # df.sh , dotfiles.
 # Run this file at the home directory.
 
-BASE_URL='https://raw.githubusercontent.com/torresjrjr/torresjrjr.github.io/master/df/'
+DF_URL='https://raw.githubusercontent.com/torresjrjr/torresjrjr.github.io/master/df/'
 
-DOTFILE='.vimrc'
-curl $BASE_URL$DOTFILE > $DOTFILE
+sync_dotfile() {
+    curl $DF_URL$1 > $1
+}
+
+sync_dotfile '.vimrc'
 
 # END
