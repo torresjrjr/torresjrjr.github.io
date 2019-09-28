@@ -6,10 +6,12 @@
 
 DF_URL='https://raw.githubusercontent.com/torresjrjr/torresjrjr.github.io/master/df/'
 
-sync_dotfile() {
-    curl $DF_URL$1 > $1
+# function: pull dotfile
+pulldf() {
+    echo Pulling $1
+    curl $DF_URL$1 -# > $1
 }
 
-sync_dotfile '.vimrc'
+pulldf .vimrc
 
 # END
