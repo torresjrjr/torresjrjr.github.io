@@ -1,4 +1,3 @@
-
 # ::: df.sh ::: #
 # @torresjrjr
 # A bash script to sync dotfiles.
