@@ -7,8 +7,8 @@
 RAW_DF_URL='https://raw.githubusercontent.com/torresjrjr/torresjrjr.github.io/master/df/'
 
 # FUNCTIONS #
-pulldf() {echo Pulling $1; curl $RAW_DF_URL$1 -# > $1}
-catdf() {echo Pulling $1; curl $RAW_DF_URL$1 -# >> $1}
+pulldf() { echo Pulling $1; curl $RAW_DF_URL$1 -# > $1 }
+catdf() { echo Pulling $1; curl $RAW_DF_URL$1 -# >> $1 }
 
 # MAIN SEQUENCE #
 echo "::: df.sh :::"
