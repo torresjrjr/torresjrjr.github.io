@@ -1,4 +1,4 @@
-" ::: ~/.vimrc :::
+" ::: ~/.vim/vimrc :::
 " @torresjrjr
 " ===========
 
@@ -17,6 +17,11 @@ set tabstop=4       " Displays \t in files as n spaces.
 set softtabstop=4   " Size of entered <Tab>.
 set shiftwidth=0    " Tab-width in vim behaivour. If 0, defaults to tabstop.
 
+" Netrw file browser
+let g:netrw_linestyle = 3 " Pipe-chars. `i` to cycle.
+let g:netrw_banner = 0 " Disables banner. `I` to toggle.
+let g:netrw_browse_split = 3 " Opens files in new tab.
+
 
 " Mappings
 " --------
@@ -32,6 +37,12 @@ nnoremap <C-b> <esc>:w<space>!python<cr>
 " -------
 
 set runtimepath^=~/.vim/bundle/goyo.vim
+
+
+" Sourcing Vim files
+" ------------------
+
+source $HOME/.vim/maps/maps.vim
 
 
 " END
