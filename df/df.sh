@@ -12,8 +12,9 @@ catdf() { echo Pulling $1 ; curl $RAW_DF_URL$1 -# >> $1 ; }
 # MAIN SEQUENCE #
 echo "::: df.sh :::"
 echo "Syncing dotfiles"
+echo "----------------"
 
-pulldf .vimrc
+pulldf .vim/
 
 echo "DONE"
 # END
