@@ -3,16 +3,12 @@
 
 " Universal mappings
 " ------------------
-
 " Go to next snippet cursor place holder.
-inoremap <Tab><Tab> <Esc>/{&}<CR>ca{
-
+inoremap <Tab><Tab> <Esc>/{&\w*}<CR>ca{
 
 " Filetype specific syntax mappings
 " ---------------------------------
-
 source $HOME/.vim/maps/markdown.maps.vim
 source $HOME/.vim/maps/html.maps.vim
-
 
 " END
