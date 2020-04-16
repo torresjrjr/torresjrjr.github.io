@@ -1,17 +1,20 @@
-
-# ::: df.sh :::
+# ::: df.sh ::: #
 # @torresjrjr
-# df.sh , dotfiles.
+# A bash script to sync dotfiles.
 # Run this file at the home directory.
 
-DF_URL='https://raw.githubusercontent.com/torresjrjr/torresjrjr.github.io/master/df/'
+RAW_DF_URL='https://raw.githubusercontent.com/torresjrjr/torresjrjr.github.io/master/df/'
 
-# function: pull dotfile
-pulldf() {
-    echo Pulling $1
-    curl $DF_URL$1 -# > $1
-}
+# FUNCTIONS #
+pulldf() { echo Pulling $1 ; curl $RAW_DF_URL$1 -# > $1 ; }
+catdf() { echo Pulling $1 ; curl $RAW_DF_URL$1 -# >> $1 ; }
 
-pulldf .vimrc
+# MAIN SEQUENCE #
+echo "::: df.sh :::"
+echo "Syncing dotfiles"
+echo "----------------"
 
+pulldf .vim/
+
+echo "DONE"
 # END
